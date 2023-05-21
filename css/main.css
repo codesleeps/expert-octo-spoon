@@ -1,0 +1,25 @@
+/* reset  */
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  color: white !important;
+
+}
+
+
+.navbar{
+  background-color: rgb(4, 4, 41);
+
+  
+}
+
+
+#productCards{
+  background-color: rgb(4, 4, 41);  
+  
+}
+
+.card-body, .card-footer{
+  background-color: rgb(4, 4, 41);
+}

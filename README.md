@@ -1,2 +1,2 @@
-# Infused Syrups
+# Syrups
 

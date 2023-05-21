@@ -15,11 +15,18 @@
 }
 
 
-#productCards{
+#fecoShots{
   background-color: rgb(4, 4, 41);  
   
 }
 
 .card-body, .card-footer{
   background-color: rgb(4, 4, 41);
+}
+
+footer{
+  background-color:  rgb(4, 4, 41);
+}
+.accordion-button {
+ background-color: rgb(4, 4, 41)!important;
 }

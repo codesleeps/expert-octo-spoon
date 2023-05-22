@@ -4,7 +4,12 @@
   padding: 0;
   box-sizing: border-box;
   color: white !important;
+  letter-spacing: 2px !important;
 
+}
+article {
+  color: red !important;
+  letter-spacing: 3px;
 }
 
 
@@ -23,6 +28,13 @@
 .card-body, .card-footer{
   background-color: rgb(4, 4, 41);
 }
+ 
+
+.card-body p {
+  /* color: rgb(112, 247, 1) !important; */
+  font-size: 1.2rem;
+}
+
 
 footer{
   background-color:  rgb(4, 4, 41);

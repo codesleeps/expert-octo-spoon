@@ -12,6 +12,15 @@ article {
   letter-spacing: 3px;
 }
 
+em {
+  background:  linear-gradient(135deg, #c48f45, #d00707,rgb(104, 250, 13));
+  background-size: 100%;
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+  background-clip: text;
+  font-size: 1.5em;
+}
+
 
 .navbar{
   background-color: rgb(4, 4, 41);
@@ -31,14 +40,10 @@ article {
  
 
 .card-body p {
-  /* color: rgb(112, 247, 1) !important; */
   font-size: 1.2rem;
 }
 
 
 footer{
   background-color:  rgb(4, 4, 41);
-}
-.accordion-button {
- background-color: rgb(4, 4, 41)!important;
 }

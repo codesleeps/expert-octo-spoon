@@ -3,7 +3,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  letter-spacing: 2px !important;
+  letter-spacing: 2px;
 
 }
 article {
@@ -19,10 +19,9 @@ article {
 }
 
 .wrapper {
-  /* background: radial-gradient(#272727, #1b1b1b); */
   display: grid;
-  grid-template-areas: "overlap";
-  place-content: center;
+  /* grid-template-areas: "overlap"; */
+  /* place-content: center; */
   text-transform: uppercase;
   height: 15vh;
 }
@@ -59,10 +58,6 @@ div.fg {
   color: #1e2127;
   transform: scale(1);
 }
-
-
-
-
 
 
 em {

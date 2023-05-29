@@ -35,8 +35,8 @@
     <section id="top">
       <header>
         <!-- Navbar  Navbar Navbar Navbar Navbar Navbar Navbar Navbar Navbar Navbar Navbar Navbar Navbar Navbar Navbar Navbar-->
-        <nav class="navbar navbar-expand-lg sticky-top">
-          <div class="container-fluid">
+        <nav class="navbar navbar-expand-lg fixed-top navbar">
+          <div class="container-fluid ">
             <button
               class="navbar-toggler text-white"
               type="button"
@@ -70,6 +70,21 @@
                 </li>
               </ul>
             </div>
+            <!-- search  -->
+            <div class="container-fluid">
+              <form class="d-flex input-group w-auto">
+                <input
+                  type="search"
+                  class="form-control rounded"
+                  placeholder="Search Products.."
+                  aria-label="Search"
+                  aria-describedby="search-addon"
+                />
+                <span class="input-group-text border-0" id="search-addon">
+                  <i class="fas fa-search text-light"></i>
+                </span>
+              </form>
+            </div>
           </div>
         </nav>
         <!-- Navbar Navbar Navbar Navbar Navbar Navbar Navbar Navbar Navbar Navbar Navbar Navbar Navbar Navbar Navbar Navbar -->
@@ -77,7 +92,7 @@
         <!-- Background image Background image Background image Background image Background image Background image Background image -->
         <div
           class="p-5 text-center bg-image"
-          style="background-image: url(./app/img/juiceGlass.webp); height: 400px"
+          style="background-image: url(./app/img/juiceGlass.webp); height: 600px"
         >
           <div class="mask" style="background-color: rgba(0, 0, 0, 0.5)">
             <div class="d-flex justify-content-center align-items-center h-100">
@@ -95,10 +110,6 @@
                   <span></span>
                    welcome
                 </a>
-                
-               
-              
-              
               </div>
             </div>
           </div>
@@ -164,9 +175,9 @@
 
         </div>
          <!-- cherry  -->
-        <div id="syrups" class="row row-cols-1 row-cols-lg-6 row-cols-md-3 row-cols-sm-2 g-4 pt-5 mx-1">
+        <div id="shots" class="row row-cols-1 row-cols-lg-6 row-cols-md-3 row-cols-sm-2 g-4 pt-5 mx-1">
         <div class="col">
-          <div class="card h-100 border border-3 ">
+          <div class="card h-100 border border-3 border-light">
             <img
               src="./app/img/shots/FECO SHOTS - CHERRY.webp"
               class="card-img-top"
@@ -432,12 +443,11 @@
               </div>
             </div>
              <!-- forest fruits end  -->
-      </div>
-      
+           </div>
           </div>
-
+                   <!-- =======================================CONTENDER============================================= -->
       <!-- contender about section-->
-          <section id="contender" class=" bg-light p-3">
+          <section id="contender" class="bg-light p-3">
             <div class="container">
               <div class="row">
                 <div class="col-lg-4">
@@ -468,7 +478,7 @@
 
         <!-- cherry  -->
         <div id="limited" class="col">
-          <div class="card h-100 border border-3">
+          <div class="card h-100 border border-3 border-success">
             <img src="./app/img/contender1/CONTENDER_CHERRY.webp" class="card-img-top" alt="Cherry Syrup"/>
             <div class="card-body">
               <h3 class="card-title"></h3>
@@ -476,7 +486,7 @@
                
               </p>
               <button class="button-85" role="button">
-                <a href="https://www.yummly.co.uk/recipes?q=cherry+and+rum+cocktails&taste-pref-appended=true" target="_blank" class="text-info">Cocktails
+                <a href="https://www.yummly.co.uk/recipes?q=cherry+and+rum+cocktails&taste-pref-appended=true" target="_blank" class="text-success">Cocktails
                 </a>
               </button>
             </div>
@@ -485,7 +495,7 @@
         <!-- cherry end  -->
         <!-- mango  -->
         <div class="col">
-          <div class="card h-100 border border-3">
+          <div class="card h-100 border border-3 border-success">
             <img src="./app/img/contender1/CONTENDER_MANGO.webp" class="card-img-top" alt="Los Angeles Skyscrapers"/>
             <div class="card-body">
               <h3 class="card-title"></h3>
@@ -493,7 +503,7 @@
                 <!-- <em>Contender Range</em> <br>A heavy combination of infused canna oils for the connoisseurs among us, not to be taken lightly this.....tbc -->
               </p>
               <button class="button-85" role="button">
-                <a href="https://www.yummly.co.uk/recipes?q=mango+and+rum+cocktails&taste-pref-appended=true" target="_blank" class="text-info">Cocktails
+                <a href="https://www.yummly.co.uk/recipes?q=mango+and+rum+cocktails&taste-pref-appended=true" target="_blank" class="text-success">Cocktails
                 </a>
               </button>
             </div>
@@ -503,7 +513,7 @@
         <!-- mango end  -->
         <!-- starwberry  -->
         <div class="col">
-          <div class="card h-100 border border-3">
+          <div class="card h-100 border border-3 border-success">
             <img src="./app/img/contender1/CONTENDER_STRAWBERRY.webp" class="card-img-top" alt="Palm Springs Road"/>
             <div class="card-body">
               <h3 class="card-title"></h3>
@@ -511,7 +521,7 @@
               
               </p>
               <button class="button-85" role="button">
-                <a href="https://www.yummly.co.uk/recipes?q=strawberry+and+rum+cocktails&taste-pref-appended=true" target="_blank" class="text-info">Cocktails
+                <a href="https://www.yummly.co.uk/recipes?q=strawberry+and+rum+cocktails&taste-pref-appended=true" target="_blank" class="text-success">Cocktails
                 </a>
               </button>
             </div>
@@ -520,7 +530,7 @@
           <!-- strawberry end  -->
              <!-- grape  -->
         <div class="col">
-          <div class="card h-100 border border-3">
+          <div class="card h-100 border border-3 border-success">
             <img src="./app/img/contender1/CONTENDER_GRAPE.webp" class="card-img-top" alt="Grape Syrup"/>
             <div class="card-body">
               <h3 class="card-title"></h3>
@@ -528,7 +538,7 @@
              
               </p>
               <button class="button-85" role="button">
-                <a href="https://www.yummly.co.uk/recipes?q=grape+and+rum+cocktails&taste-pref-appended=true" target="_blank" class="text-info">Cocktails
+                <a href="https://www.yummly.co.uk/recipes?q=grape+and+rum+cocktails&taste-pref-appended=true" target="_blank" class="text-success">Cocktails
                 </a>
               </button>
             </div>
@@ -537,7 +547,7 @@
         <!-- grape end  -->
           <!-- kola champagne  -->
         <div class="col">
-          <div class="card h-100 border border-3">
+          <div class="card h-100 border border-3 border-success">
             <img src="./app/img/contender1/CONTENDER_KOLACHAMPAGNE.webp" class="card-img-top" alt="Pineapple juice"/>
             <div class="card-body">
               <h3 class="card-title"></h3>
@@ -545,7 +555,7 @@
                 
               </p>
               <button class="button-85" role="button">
-                <a href="https://www.yummly.co.uk/recipes?q=cola+and+rum+cocktails&taste-pref-appended=true" target="_blank" class="text-info">Cocktails
+                <a href="https://www.yummly.co.uk/recipes?q=cola+and+rum+cocktails&taste-pref-appended=true" target="_blank" class="text-success">Cocktails
                 </a>
               </button>
             </div>
@@ -554,7 +564,7 @@
           <!-- kola champagne end -->
            <!-- irn-bru  -->
           <div class="col">
-          <div class="card h-100 border border-3">
+          <div class="card h-100 border border-3 border-success">
             <img src="./app/img/contender1/CONTENDER_IRN-BRU.webp" class="card-img-top" alt="Palm Springs Road"/>
             <div class="card-body">
               <h3 class="card-title"></h3>
@@ -562,7 +572,7 @@
   
               </p>
               <button class="button-85" role="button">
-                <a href="https://www.yummly.co.uk/recipe/African-Punch-1625264" target="_blank" class="text-info">Cocktails
+                <a href="https://www.yummly.co.uk/recipe/African-Punch-1625264" target="_blank" class="text-success">Cocktails
                 </a>
               </button>
             </div>
@@ -577,7 +587,7 @@
       
         <!-- pineapple  -->
         <div class="col">
-          <div class="card h-100 border border-3">
+          <div class="card h-100 border border-3 border-success">
             <img src="./app/img/contender1/CONTENDER_PINEAPPLE.webp" class="card-img-top" alt="Palm Springs Road"/>
             <div class="card-body">
               <h3 class="card-title"></h3>
@@ -585,7 +595,7 @@
                 
               </p>
               <button class="button-85" role="button">
-                <a href="https://www.yummly.co.uk/recipes?q=pineapple+and+rum+cocktails&taste-pref-appended=true" target="_blank" class="text-info">Cocktails
+                <a href="https://www.yummly.co.uk/recipes?q=pineapple+and+rum+cocktails&taste-pref-appended=true" target="_blank" class="text-success">Cocktails
                 </a>
               </button>
             </div>
@@ -594,7 +604,7 @@
         <!-- pineapple end -->
          <!-- strawberry  -->
         <div class="col">
-          <div class="card h-100 border border-3">
+          <div class="card h-100 border border-3 border-success">
             <img src="./app/img/contender1/CONTENDER_STRAWBERRY.webp" class="card-img-top" alt="Palm Springs Road"/>
             <div class="card-body">
               <h3 class="card-title"></h3>
@@ -602,7 +612,7 @@
                 
               </p>
               <button class="button-85" role="button">
-                <a href="https://www.yummly.co.uk/recipe/African-Punch-1625264" target="_blank" class="text-info">Cocktails
+                <a href="https://www.yummly.co.uk/recipe/African-Punch-1625264" target="_blank" class="text-success">Cocktails
                 </a>
               </button>
             </div>
@@ -611,7 +621,7 @@
          <!-- strawberry end -->
          <!-- forest fruits  -->
          <div class="col">
-          <div class="card h-100 border border-3">
+          <div class="card h-100 border border-3 border-success">
             <img src="./app/img/contender1/CONTENDER_FORESTFRUITS.webp" class="card-img-top" alt="Palm Springs Road"/>
             <div class="card-body">
               <h3 class="card-title"></h3>
@@ -619,7 +629,7 @@
                 
               </p>
               <button class="button-85" role="button">
-                <a href="https://www.yummly.co.uk/recipe/African-Punch-1625264" target="_blank" class="text-info">Cocktails
+                <a href="https://www.yummly.co.uk/recipe/African-Punch-1625264" target="_blank" class="text-success">Cocktails
                 </a>
               </button>
             </div>
@@ -628,7 +638,7 @@
          <!-- forest fruits end -->
               <!-- vimto  -->
         <div class="col">
-          <div class="card h-100 border border-3">
+          <div class="card h-100 border border-3 border-success">
             <img src="./app/img/contender1/CONTENDER_VIMTO.webp" class="card-img-top" alt="Palm Springs Road"/>
             <div class="card-body">
               <h3 class="card-title"></h3>
@@ -636,7 +646,7 @@
                 
               </p>
               <button class="button-85" role="button">
-                <a href="https://www.yummly.co.uk/recipe/African-Punch-1625264" target="_blank" class="text-info">Cocktails
+                <a href="https://www.yummly.co.uk/recipe/African-Punch-1625264" target="_blank" class="text-success">Cocktails
                 </a>
               </button>
             </div>
@@ -645,7 +655,7 @@
         <!-- vimto end  -->
         <!-- ribena  -->
         <div class="col">
-          <div class="card h-100 border border-3">
+          <div class="card h-100 border border-3 border-success">
             <img src="./app/img/contender1/CONTENDER_RIBENA.webp" class="card-img-top" alt="Palm Springs Road"/>
             <div class="card-body">
               <h3 class="card-title"></h3>
@@ -653,7 +663,7 @@
                 
               </p>
               <button class="button-85" role="button">
-                <a href="https://www.yummly.co.uk/recipe/African-Punch-1625264" target="_blank" class="text-info">Cocktails
+                <a href="https://www.yummly.co.uk/recipe/African-Punch-1625264" target="_blank" class="text-success">Cocktails
                 </a>
               </button>
             </div>
@@ -662,7 +672,7 @@
         <!-- ribena end  -->
         <!-- irn-bru  -->
         <div class="col">
-          <div class="card h-100 border border-3">
+          <div class="card h-100 border border-3 border-success">
             <img src="./app/img/contender1/CONTENDER_SG.webp" class="card-img-top" alt="Palm Springs Road"/>
             <div class="card-body">
               <h3 class="card-title"></h3>
@@ -670,7 +680,7 @@
                 
               </p>
               <button class="button-85" role="button">
-                <a href="https://www.yummly.co.uk/recipe/African-Punch-1625264" target="_blank" class="text-info">Cocktails
+                <a href="https://www.yummly.co.uk/recipe/African-Punch-1625264" target="_blank" class="text-success">Cocktails
                 </a>
               </button>
             </div>
@@ -678,7 +688,7 @@
         </div>
 
       </div>
-
+<!-- chocolates chocolates chocolates chocolates chocolates chocolates chocolates chocolates chocolates chocolates chocolates  -->
       <!-- chocolates about section-->
         <section id="choclates" class="about bg-light p-5">
           <div class="container">
@@ -1089,8 +1099,7 @@
                 <div class="card-body">
                   <h3 class="card-title"></h3>
                   <p class="card-text mb-5"> 
-                    <!-- Mango juice is known for its vibrant orange color, tropical aroma, and sweet-tangy taste, full of vitamins for daily intake -->
-                  
+                   
                   </p>
                    <button class="button-85" role="button">
                     <a href="https://www.yummly.co.uk/recipe/African-Punch-1625264" target="_blank" class="text-warning">Honey
@@ -1122,7 +1131,7 @@
 
             <!-- honey 500mg  -->  
             <div class="col">
-              <div class="card h-100 border border-3">
+              <div class="card h-100 border border-3 border-warning">
                 <img src="./app/img/honey/HONEY 1000MG.png" class="card-img-top" alt="Apple juice"/>
                 <div class="card-body">
                   <h3 class="card-title"></h3>

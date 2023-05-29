@@ -10,7 +10,11 @@ article {
   color: red !important;
   letter-spacing: 3px;
 }
-
+.news-input {
+  background-image:  linear-gradient(135deg, #ffb338, #3e2904);
+  color: white;
+  /* border-top: 2px solid rgb(9, 9, 9); */
+}
 
 
 :root {

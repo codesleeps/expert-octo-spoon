@@ -82,7 +82,7 @@ I'm a front end developer...
 
 [Mobile_Contender_About](https://github.com/codesleeps/expert-octo-spoon/assets/125808990/06c3204a-6e73-463f-8098-4e48c90f87cc)
 
-![Mobile_Footer](https://github.com/codesleeps/expert-octo-spoon/assets/125808990/4f51d61c-ba4b-49e9-8bb3-172f29a8137d)
+[Mobile_Footer](https://github.com/codesleeps/expert-octo-spoon/assets/125808990/4f51d61c-ba4b-49e9-8bb3-172f29a8137d)
 
 [![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png)](#badges)
 

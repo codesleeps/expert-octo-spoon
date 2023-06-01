@@ -1,6 +1,6 @@
 # FECO CLUB
 
-![Visitor Count](https://profile-counter.glitch.me/codesleeps/expert-octo-spoon/count.svg)
+![Visitor Count](https://profile-counter.glitch.me/expert-octo-spoon/count.svg)
 
 ![Desktop_Header](https://github.com/codesleeps/expert-octo-spoon/assets/125808990/db636958-dd6b-460e-8cf7-f5086bf1031f)
 

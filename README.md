@@ -49,7 +49,7 @@ I'm a front end developer...
 [lighthouse](https://github.com/codesleeps/expert-octo-spoon/assets/125808990/23fbfa43-a158-4618-9882-1777c1da2114)
 
   - 3rd Test
-[Screenshot 2023-06-01 at 18 17 41](https://github.com/codesleeps/expert-octo-spoon/assets/125808990/f9101d7c-f9dc-4190-8862-cb43c3be6759)
+[lighthouse](https://github.com/codesleeps/expert-octo-spoon/assets/125808990/f9101d7c-f9dc-4190-8862-cb43c3be6759)
 
 [![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png)](#badges)
 

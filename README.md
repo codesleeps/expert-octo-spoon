@@ -34,6 +34,9 @@ I'm a front end developer...
 [![linkedin](https://img.shields.io/badge/linkedin-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](#)
 [![twitter](https://img.shields.io/badge/twitter-1DA1F2?style=for-the-badge&logo=twitter&logoColor=white)](#)
 
+[![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png)](#badges)
+
+
 
 ## Tests
 
@@ -44,9 +47,42 @@ I'm a front end developer...
 [lighthouse](https://github.com/codesleeps/expert-octo-spoon/assets/125808990/23fbfa43-a158-4618-9882-1777c1da2114)
 
 
+[![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png)](#badges)
+
 
 ## Screenshots
 
-![Screenshot 2023-06-01 at 17 41 23](https://github.com/codesleeps/expert-octo-spoon/assets/125808990/029dc925-3d8d-4aae-b4ec-bb298007a4ac)
+[All Desktop Views](https://github.com/codesleeps/expert-octo-spoon/assets/125808990/029dc925-3d8d-4aae-b4ec-bb298007a4ac)
 
+[Desktop_Header](https://github.com/codesleeps/expert-octo-spoon/assets/125808990/3940934f-6802-414d-9cd2-1262cc93e60c)
+
+[Desktop_About-Shots](https://github.com/codesleeps/expert-octo-spoon/assets/125808990/5bbd1ff1-ca56-476a-badf-28fa24230f44)
+
+[Desktop_Shots_Selection](https://github.com/codesleeps/expert-octo-spoon/assets/125808990/ce11febd-0379-4d3a-a55e-06e84bced9d3)
+
+[Desktop_Chocolates_Selection](https://github.com/codesleeps/expert-octo-spoon/assets/125808990/c06e5c9a-c68f-4f81-b650-1e7fc5f16207)
+
+[Desktop_Smokeless_Selection](https://github.com/codesleeps/expert-octo-spoon/assets/125808990/9c06f815-8923-43c8-b59f-31c75056e05e)
+
+[Desktop_Honey_Selection](https://github.com/codesleeps/expert-octo-spoon/assets/125808990/d178df09-97d2-47c9-b116-b3ca427dc635)
+
+[Desktop_Topicals_Selection](https://github.com/codesleeps/expert-octo-spoon/assets/125808990/525b203a-a0f7-444c-92bd-f177fe155cbc)
+
+[Desktop_Gummies_Selection](https://github.com/codesleeps/expert-octo-spoon/assets/125808990/21ac47dc-08ba-4718-b8c7-7af01c985372)
+
+[Mobile_Header](https://github.com/codesleeps/expert-octo-spoon/assets/125808990/fed17ad3-7c60-4674-9dee-960bda5f3395)
+
+[Mobile_Gummies_About](https://github.com/codesleeps/expert-octo-spoon/assets/125808990/27efdbb3-f99e-43a3-8a13-455ece21140a)
+
+[Mobile_CBD_Honey_About](https://github.com/codesleeps/expert-octo-spoon/assets/125808990/25ced9a0-b2e6-47fe-be0d-376ec257adca)
+
+[Mobile_CBD_Oils_About](https://github.com/codesleeps/expert-octo-spoon/assets/125808990/81a8edc6-7377-4716-804b-e2b6bfe81937)
+
+[Mobile_Chocolates_About](https://github.com/codesleeps/expert-octo-spoon/assets/125808990/b2eda9c7-470a-48b2-8402-697d85461b88)
+
+[Mobile_Contender_About](https://github.com/codesleeps/expert-octo-spoon/assets/125808990/06c3204a-6e73-463f-8098-4e48c90f87cc)
+
+![Mobile_Footer](https://github.com/codesleeps/expert-octo-spoon/assets/125808990/4f51d61c-ba4b-49e9-8bb3-172f29a8137d)
+
+[![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png)](#badges)
 

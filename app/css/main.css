@@ -1,11 +1,16 @@
 /* reset  */
-*{
+* {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
   letter-spacing: 2px;
-
 }
+:root {
+  --gold: #ffb338;
+  --light-shadow: #77571d;
+  --dark-shadow: #3e2904;
+}
+
 article {
   color: red !important;
   letter-spacing: 3px;
@@ -25,7 +30,7 @@ article {
   z-index: 99; /* Make sure it does not overlap */
   border: none; /* Remove borders */
   outline: none; /* Remove outline */
-  background-color: green; /* Set a background color */
+  background-color: lime; /* Set a background color */
   color: white; /* Text color */
   cursor: pointer; /* Add a mouse pointer on hover */
   padding: 10px; /* Some padding */
@@ -34,15 +39,10 @@ article {
 }
 
 #myBtn:hover {
-  background-color: lime; /* Add a dark-grey background on hover */
+  background-color: green; /* Add a dark-grey background on hover */
+  color: yellow;
 }
 
-
-:root {
-  --gold: #ffb338;
-  --light-shadow: #77571d;
-  --dark-shadow: #3e2904;
-}
 
 .wrapper {
   display: grid;
@@ -85,9 +85,8 @@ div.fg {
   transform: scale(1);
 }
 
-
 em {
-  background:  linear-gradient(135deg, #c48f45, #d00707,rgb(104, 250, 13));
+  background: linear-gradient(135deg, #c48f45, #d00707, rgb(104, 250, 13));
   background-size: 100%;
   -webkit-text-fill-color: transparent;
   -webkit-background-clip: text;
@@ -95,31 +94,26 @@ em {
   font-size: 1.5em;
 }
 
-
-.navbar{
+.navbar {
   background-color: #131519;
   border-top: 2px solid #ffb338;
   border-bottom: 2px solid #ffb338;
-
 }
 
-
-#fecoShots{
-  background-color: rgb(3, 3, 3);  
-  
+#fecoShots {
+  background-color: rgb(3, 3, 3);
 }
 
-.card-body, .card-footer{
+.card-body,
+.card-footer {
   background-color: rgb(8, 8, 9);
 }
- 
 
 .card-body p {
   font-size: 1.2rem;
 }
 
-
-footer{
-  background-color:  rgb(3, 3, 3);
+footer {
+  background-color: rgb(3, 3, 3);
   color: #c48f45;
 }

@@ -118,3 +118,6 @@ footer {
   background-color: rgb(3, 3, 3);
   color: #c48f45;
 }
+ footer #contact h4 {
+  color: white;
+ }

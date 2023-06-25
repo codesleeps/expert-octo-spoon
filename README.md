@@ -2,7 +2,7 @@
 
 ![Visitor Count](https://profile-counter.glitch.me/expert-octo-spoon/count.svg)
 
-[App] (https://codesleeps.github.io/expert-octo-spoon/)
+[App](https://codesleeps.github.io/expert-octo-spoon/)
 
 ![Desktop_Header](https://github.com/codesleeps/expert-octo-spoon/assets/125808990/db636958-dd6b-460e-8cf7-f5086bf1031f)
 

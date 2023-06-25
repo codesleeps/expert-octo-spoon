@@ -58,22 +58,6 @@ I'm a front end developer...
 
 [All Desktop Views](https://github.com/codesleeps/expert-octo-spoon/assets/125808990/029dc925-3d8d-4aae-b4ec-bb298007a4ac)
 
-[Desktop Header](https://github.com/codesleeps/expert-octo-spoon/assets/125808990/3940934f-6802-414d-9cd2-1262cc93e60c)
-
-[Desktop About Shots](https://github.com/codesleeps/expert-octo-spoon/assets/125808990/5bbd1ff1-ca56-476a-badf-28fa24230f44)
-
-[Desktop Shots Selection](https://github.com/codesleeps/expert-octo-spoon/assets/125808990/ce11febd-0379-4d3a-a55e-06e84bced9d3)
-
-[Desktop Chocolates Selection](https://github.com/codesleeps/expert-octo-spoon/assets/125808990/c06e5c9a-c68f-4f81-b650-1e7fc5f16207)
-
-[Desktop Smokeless Selection](https://github.com/codesleeps/expert-octo-spoon/assets/125808990/9c06f815-8923-43c8-b59f-31c75056e05e)
-
-[Desktop Honey Selection](https://github.com/codesleeps/expert-octo-spoon/assets/125808990/d178df09-97d2-47c9-b116-b3ca427dc635)
-
-[Desktop Topicals Selection](https://github.com/codesleeps/expert-octo-spoon/assets/125808990/525b203a-a0f7-444c-92bd-f177fe155cbc)
-
-[Desktop Gummies Selection](https://github.com/codesleeps/expert-octo-spoon/assets/125808990/21ac47dc-08ba-4718-b8c7-7af01c985372)
-
 [Mobile Header](https://github.com/codesleeps/expert-octo-spoon/assets/125808990/fed17ad3-7c60-4674-9dee-960bda5f3395)
 
 [Mobile Gummies About](https://github.com/codesleeps/expert-octo-spoon/assets/125808990/27efdbb3-f99e-43a3-8a13-455ece21140a)

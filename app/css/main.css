@@ -40,8 +40,8 @@ article {
 }
 
 #myBtn:hover {
-  background-color: grey; /* Add a dark-grey background on hover */
-  color: black;
+  background-color: rgb(4, 4, 4); /* Add a dark-grey background on hover */
+  color: gold;
 }
 
 

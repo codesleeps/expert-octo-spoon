@@ -1987,20 +1987,16 @@
   }
 }
 
-/*# sourceMappingURL=button.css.map */
-article {
-  color: red !important;
-  letter-spacing: 3px;
-}
+
 .news-input {
   background-color: #050505;
   color: #ffb338 !important;
   border-top: 2px solid #ffb338;
   border-bottom: 3px solid #ffb338;
 }
-p {
-  font-size: 1em !important;
-}
+ 
+
+  
 
 #myBtn {
   display: none; /* Hidden by default */
@@ -2008,8 +2004,6 @@ p {
   bottom: 20px; /* Place the button at the bottom of the page */
   right: 30px; /* Place the button 30px from the right */
   z-index: 99; /* Make sure it does not overlap */
-  border: none; /* Remove borders */
-  outline: none; /* Remove outline */
   background-color: black; /* Set a background color */
   color: white; /* Text color */
   cursor: pointer; /* Add a mouse pointer on hover */
@@ -2027,8 +2021,8 @@ p {
 
 .wrapper {
   display: grid;
-  /* grid-template-areas: "overlap"; */
-  /* place-content: center; */
+  grid-template-areas: "overlap";
+  place-content: center;
   text-transform: uppercase;
   height: 15vh;
 }

@@ -124,22 +124,6 @@
                 </li>
               </ul>
             </div>
-            <!-- search  -->
-            <!-- <div class="container-fluid">
-              <form class="d-flex input-group w-auto">
-                <input
-                  type="search"
-                  class="form-control rounded"
-                  placeholder="Search...."
-                  aria-label="Search"
-                  aria-describedby="search-addon"
-                />
-                <span class="input-group-text border-0" id="search-addon">
-                  <i class="fas fa-search text-light"></i>
-                </span>
-              </form>
-            </div>  -->
-            <!-- search end -->
           </div>
         </nav>
         <!-- Navbar Navbar Navbar Navbar Navbar Navbar Navbar Navbar Navbar Navbar Navbar Navbar Navbar Navbar Navbar Navbar -->
@@ -176,14 +160,14 @@
        <section class="news-input p-4">
           <div class="container">
             <div class="d-md-flex justify-content-between align-items-center">
-              <h3 class="mb-3 mb-md-0 px-3">Sign Up For Monthly Deals
+              <h3 class="mb-3 mb-md-0 px-3">Live Chat Coming Soon......
               </h3>
               <div class="input-group email-input">
-                <input type="text" class="form-control" placeholder="Soon...Enter Email" aria-label="Enter Email"
+                <input type="text" class="form-control" placeholder="" aria-label="Enter Email"
                   aria-describedby="button-addon2"
                   >
                 <button class="btn btn-outline-warning btn-md" type="button" id="button-addon2" >
-                  Submit
+                  Enter
                 </button>
               </div>
             </div>
@@ -196,7 +180,7 @@
                 <div class="row">
                   <div class="col-lg-4">
     
-                <img src="./app/img/about/ballers-cocktail.webp" loading="lazy" class="img-fluid mt-5" alt="Glass of Juice">
+                <img src="./app/img/about/ballers-cocktail.webp" sizes="450x300" loading="lazy" class="img-fluid mt-5" alt="Glass of Juice">
 
               </div>
               <div class="col-lg-8 pt-4 pt-lg-0 ">
@@ -224,6 +208,25 @@
            <!-- top button  -->
         <button onclick="topFunction()" id="myBtn" title="Go to top">top</button>
 
+        <!-- Modal -->
+        <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+          <div class="modal-dialog">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h5 class="modal-title" id="exampleModalLabel">Feedback</h5>
+                <button type="button" class="btn-close" data-mdb-dismiss="modal" aria-label="Close"></button>
+              </div>
+              <div class="modal-body">
+                <textarea name="feedback" id="message" cols="50" rows="5"></textarea>
+              </div>
+              <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-mdb-dismiss="modal">Close</button>
+                <button type="button" class="btn btn-primary">Submit</button>
+              </div>
+            </div>
+          </div>
+        </div>
+
 
      
       <!-- Cards -->
@@ -241,13 +244,13 @@
         <div class="col">
           <div class="card h-100 border border-3">
             <img
-              src="./app/img/shots/FECO SHOTS - CHERRY copy.png"
-              class="card-img-top" loading="lazy"
+              src="./app/img/shots/FECO SHOTS - CHERRY.webp"
+              class="card-img-top" loading="lazy" sizes="400x267"
               alt="Cherry syrup"
             />
             <div class="card-body">
               <p class="card-text text-light">
-                ⭐⭐⭐⭐⭐ <br><br>
+               <a href="#exampleModal" type="button"  data-mdb-toggle="modal" data-mdb-target="#exampleModal">⭐⭐⭐⭐⭐</a><br><br>
                 50ml - £14.99 <br>
                 300ml - £49.99
               </p>
@@ -257,7 +260,7 @@
                 </button>   
                 <!-- feedback button -->
                 <button id="feedbackButton" class="button-85" role="button">
-                  <a href="https://www.youtube.com/watch?v=-ZhxFtmAoXg" target="_blank" class="text-warning">Shark!</a>
+                  <a href="https://www.youtube.com/watch?v=-ZhxFtmAoXg" target="_blank" class="text-warning">WATCH Shark!</a>
                 </button>  
             </div>
           </div>
@@ -268,13 +271,13 @@
           <div class="card h-100 border border-3">
             <img
               src="./app/img/shots/FECO SHOTS - KOLA CHAMPAGNE.webp"
-              class="card-img-top" loading="lazy"
+              class="card-img-top" loading="lazy" sizes="400x267"
               alt="Kola Champagne Syrup"
             />
             <div class="card-body">
               <!-- <h3 class="card-title text-warning">Kola Champagne</h3> -->
               <p class="card-text text-light">
-                ⭐⭐⭐⭐ <br> <br>
+                <a href="#exampleModal" type="button"  data-mdb-toggle="modal" data-mdb-target="#exampleModal">⭐⭐⭐⭐⭐</a><br><br>
                 50ml - £14.99  <br>
                 300ml - £49.99
               </p>
@@ -282,9 +285,9 @@
                 <a href="https://www.yummly.co.uk/recipes?q=cola+cocktails&taste-pref-appended=true" target="_blank" class="text-warning">Mix
               </button>
               
-                <!-- feedback button -->
+                <!-- ORDER button -->
                 <button id="orderButton" class="button-85" role="button">
-                  <a href="#" target="_blank" class="text-warning">Feedback</a>
+                  <a href="#" target="_blank" class="text-warning">Order</a>
                 </button>  
               
        
@@ -298,12 +301,12 @@
           <div class="card h-100 border border-3">
             <img
               src="./app/img/shots/FECO SHOTS - STRAWBERRY.webp"
-              class="card-img-top" loading="lazy"
+              class="card-img-top" loading="lazy" sizes="400x267"
               alt="Strawberry Syrup"
             />
             <div class="card-body">
               <p class="card-text text-light">
-                ⭐⭐⭐⭐ <br> <br>
+                <a href="#exampleModal" type="button"  data-mdb-toggle="modal" data-mdb-target="#exampleModal">⭐⭐⭐⭐⭐</a><br><br>
                 50ml - £14.99 <br>
                 300ml - £49.99 
               </p>
@@ -314,7 +317,7 @@
              
                 <!-- feedback button -->
                 <button id="orderButton" class="button-85" role="button">
-                  <a href="#" target="_blank" class="text-warning">Feedback</a>
+                  <a href="#" target="_blank" class="text-warning">Order</a>
                 </button>   
             </div>
           </div>
@@ -325,12 +328,12 @@
           <div class="card h-100 border border-3">
             <img
               src="./app/img/shots/FECO SHOTS - FRUIT PUNCH.webp"
-              class="card-img-top" loading="lazy"
+              class="card-img-top" loading="lazy" sizes="400x267"
               alt="Fruit Punch Syrup"
             />
             <div class="card-body">
               <p class="card-text text-light">
-                ⭐⭐⭐⭐ <br> <br>
+                <a href="#exampleModal" type="button"  data-mdb-toggle="modal" data-mdb-target="#exampleModal">⭐⭐⭐⭐⭐</a><br><br>
                 50ml - £14.99 <br>
                 300ml - £49.99 
               </p>
@@ -341,7 +344,7 @@
              
                 <!-- feedback button -->
                 <button id="orderButton" class="button-85" role="button">
-                  <a href="#" target="_blank" class="text-warning">Feedback</a>
+                  <a href="#" target="_blank" class="text-warning">Order</a>
                 </button>   
           
             </div>
@@ -353,12 +356,12 @@
             <div class="card h-100 border border-3">
             <img
               src="./app/img/shots/FECO SHOTS - GRAPE.webp"
-              class="card-img-top" loading="lazy"
+              class="card-img-top" loading="lazy" sizes="400x267"
               alt="Grape Syrup"
             />
             <div class="card-body">
               <p class="card-text text-light">
-                ⭐⭐⭐⭐ <br> <br>
+                <a href="#exampleModal" type="button"  data-mdb-toggle="modal" data-mdb-target="#exampleModal">⭐⭐⭐⭐⭐</a><br><br>
                 50ml - £14.99 <br>
                 300ml - £49.99
               </p>
@@ -369,7 +372,7 @@
              
                 <!-- feedback button -->
                 <button id="orderButton" class="button-85" role="button">
-                  <a href="#" target="_blank" class="text-warning">Feedback</a>
+                  <a href="#" target="_blank" class="text-warning">Order</a>
                 </button>  
             </div>
           </div>
@@ -380,12 +383,12 @@
           <div class="card h-100 border border-3">
             <img
               src="./app/img/shots/FECO SHOTS - PINEAPPLE.webp"
-              class="card-img-top" loading="lazy"
+              class="card-img-top" loading="lazy" sizes="400x267"
               alt="Pineapple Syrup"
             />
             <div class="card-body">
               <p class="card-text text-light">
-                ⭐⭐⭐⭐⭐ <br> <br>
+                <a href="#exampleModal" type="button"  data-mdb-toggle="modal" data-mdb-target="#exampleModal">⭐⭐⭐⭐⭐</a><br><br>
                 50ml - £14.99   <br>
                 300ml - £49.99
               </p>
@@ -396,7 +399,7 @@
              
                 <!-- feedback button -->
                 <button id="orderButton" class="button-85" role="button">
-                  <a href="#" target="_blank" class="text-warning">Feedback</a>
+                  <a href="#" target="_blank" class="text-warning">Order</a>
                 </button>  
             </div>
           </div>
@@ -407,13 +410,13 @@
           <div class="card h-100 border border-3">
             <img
               src="./app/img/shots/FECO SHOTS - VIMTO.webp"
-              class="card-img-top" loading="lazy"
+              class="card-img-top" loading="lazy" sizes="400x267"
               alt="Vimto Syrup"
             />
             <div class="card-body">
               <!-- <h3 class="card-title text-danger">Vimto</h5> -->
               <p class="card-text text-light">
-                ⭐⭐⭐ <br> <br>
+                <a href="#exampleModal" type="button"  data-mdb-toggle="modal" data-mdb-target="#exampleModal">⭐⭐⭐⭐⭐</a><br><br>
                 50ml - £14.99 <br>
                 300ml - £49.99
               </p>
@@ -424,7 +427,7 @@
              
                 <!-- feedback button -->
                 <button id="orderButton" class="button-85" role="button">
-                  <a href="#" target="_blank" class="text-warning">Feedback</a>
+                  <a href="#" target="_blank" class="text-warning">Order</a>
                 </button>  
             
               </a>
@@ -438,13 +441,13 @@
             <div class="card h-100 border border-3">
               <img
                 src="./app/img/shots/FECO SHOTS - RIBENA.webp"
-                class="card-img-top" loading="lazy"
+                class="card-img-top" loading="lazy" sizes="400x267"
                 alt="Ribena"
               />
               <div class="card-body">
                
                 <p class="card-text text-light">
-                  ⭐⭐⭐ <br> <br>
+                  <a href="#exampleModal" type="button"  data-mdb-toggle="modal" data-mdb-target="#exampleModal">⭐⭐⭐⭐⭐</a><br><br>
                   50ml - £14.99   <br>
                   300ml - £49.99 
                 </p>
@@ -455,7 +458,7 @@
                 
                 <!-- feedback button -->
                 <button id="orderButton" class="button-85" role="button">
-                  <a href="#" target="_blank" class="text-warning">Feedback</a>
+                  <a href="#" target="_blank" class="text-warning">Order</a>
                 </button>  
                 
               </div>
@@ -468,13 +471,13 @@
           <div class="card h-100 border border-3">
             <img
               src="./app/img/shots/FECO SHOTS - IRN-BRU.webp"
-              class="card-img-top" loading="lazy"
+              class="card-img-top" loading="lazy" sizes="400x267"
               alt="Irn-Bru"
             />
             <div class="card-body">
             
               <p class="card-text text-light">
-                ⭐⭐⭐⭐ <br> <br>
+               <a href="#exampleModal" type="button"  data-mdb-toggle="modal" data-mdb-target="#exampleModal">⭐⭐⭐⭐⭐</a><br><br>
                50ml - £14.99 <br>
                300ml - £49.99  
                 
@@ -486,7 +489,7 @@
              
                 <!-- feedback button -->
                 <button id="orderButton" class="button-85" role="button">
-                  <a href="#" target="_blank" class="text-warning">Feedback</a>
+                  <a href="#" target="_blank" class="text-warning">Order</a>
                 </button>  
               
             </div>
@@ -498,13 +501,13 @@
           <div class="card h-100 border border-3">
             <img
               src="./app/img/shots/FECO SHOTS - MANGO.webp"
-              class="card-img-top" loading="lazy"
+              class="card-img-top" loading="lazy" sizes="400x267"
               alt="Mango Syrup"
             />
             <div class="card-body">
              
               <p class="card-text text-light">
-                ⭐⭐⭐⭐ <br> <br>
+                <a href="#exampleModal" type="button"  data-mdb-toggle="modal" data-mdb-target="#exampleModal">⭐⭐⭐⭐⭐</a><br><br>
                 50ml - £14.99 <br>
                 300ml - £49.99
               </p>
@@ -515,7 +518,7 @@
              
                 <!-- feedback button -->
                 <button id="orderButton" class="button-85" role="button">
-                  <a href="#" target="_blank" class="text-warning">Feedback</a>
+                  <a href="#" target="_blank" class="text-warning">Order</a>
                 </button>  
             </div>
           </div>
@@ -527,13 +530,13 @@
           <div class="card h-100 border border-3">
             <img
               src="./app/img/shots/FECO SHOTS - SORREL & GINGER.webp"
-              class="card-img-top" loading="lazy"
+              class="card-img-top" loading="lazy" sizes="400x267"
               alt="Skyscrapers"
             />
             <div class="card-body">
              
               <p class="card-text text-light">
-                ⭐⭐⭐⭐ <br> <br>
+                <a href="#exampleModal" type="button"  data-mdb-toggle="modal" data-mdb-target="#exampleModal">⭐⭐⭐⭐⭐</a><br><br>
                 50ml - £14.99  <br>
                 300ml - £49.99
               </p>
@@ -543,7 +546,7 @@
               </button>
                 <!-- feedback button -->
                 <button id="orderButton" class="button-85" role="button">
-                  <a href="#" target="_blank" class="text-warning">Feedback</a>
+                  <a href="#" target="_blank" class="text-warning">Order</a>
                 </button> 
             </div>
           </div>
@@ -554,22 +557,22 @@
           <div class="card h-100 border border-3">
             <img
               src="./app/img/shots/FECO SHOTS - FOREST FRUITS.webp"
-              class="card-img-top" loading="lazy"
+              class="card-img-top" loading="lazy" sizes="400x267"
               alt="Ginger Syrup"
             />
             <div class="card-body"> 
               <p class="card-text text-light">
-                ⭐⭐⭐ <br> <br>
+                <a href="#exampleModal" type="button"  data-mdb-toggle="modal" data-mdb-target="#exampleModal">⭐⭐⭐⭐⭐</a><br><br>
                 50ml - £14.99 <br>
                 300ml - £49.99 
               </p>
               <button class="button-85" role="button">
-                <a href="https://www.yummly.co.uk/recipe/African-Punch-1625264" target="_blank" class="text-warning">MIX
+                <a href="https://www.yummly.co.uk/recipe/African-Punch-1625264" target="_blank" class="text-warning">Mix
                 </a>
               </button>
                 <!-- feedback button -->
                 <button id="orderButton" class="button-85" role="button">
-                  <a href="#" target="_blank" class="text-warning">Feedback</a>
+                  <a href="#" target="_blank" class="text-warning">Order</a>
                 </button> 
                 </div>
               </div>
@@ -612,11 +615,11 @@
         <!-- cherry  -->
         <div id="limited" class="col">
           <div class="card h-100 border border-3 border-success">
-            <img src="./app/img/contender/CONTENDER_CHERRY.webp" class="card-img-top" loading="lazy" alt="Cherry Syrup"/>
+            <img src="./app/img/contender/CONTENDER_CHERRY.webp" class="card-img-top" loading="lazy" sizes="400x267" alt="Cherry Syrup"/>
             <div class="card-body">
               <h3 class="card-title"></h3>
               <p class="card-text text-light">
-                ⭐⭐⭐⭐⭐ <br> <br>
+                <a href="#exampleModal" type="button"  data-mdb-toggle="modal" data-mdb-target="#exampleModal">⭐⭐⭐⭐⭐</a><br><br>
                 1000mg - £49.99  <br>
                 2000mg - £85.00
               </p>
@@ -628,7 +631,7 @@
               
                 <!-- feedback button -->
                 <button id="orderButton" class="button-85" role="button">
-                  <a href="#" target="_blank" class="text-warning">Feedback</a>
+                  <a href="#" target="_blank" class="text-warning">Order</a>
                 </button>  
             </div>
           </div>
@@ -637,11 +640,11 @@
         <!-- mango  -->
         <div class="col">
           <div class="card h-100 border border-3 border-success">
-            <img src="./app/img/contender/CONTENDER_MANGO.webp" class="card-img-top" loading="lazy" alt="Mango Rum"/>
+            <img src="./app/img/contender/CONTENDER_MANGO.webp" class="card-img-top" loading="lazy" sizes="400x267" alt="Mango Rum"/>
             <div class="card-body">
               <h3 class="card-title"></h3>
               <p class="card-text text-light">
-                ⭐⭐⭐⭐ <br> <br>
+                <a href="#exampleModal" type="button"  data-mdb-toggle="modal" data-mdb-target="#exampleModal">⭐⭐⭐⭐⭐</a><br><br>
                 1000mg - £49.99  <br>
                 2000mg - £85.00
               </p>
@@ -652,7 +655,7 @@
               
                 <!-- feedback button -->
                 <button id="orderButton" class="button-85" role="button">
-                  <a href="#" target="_blank" class="text-warning">Feedback</a>
+                  <a href="#" target="_blank" class="text-warning">Order</a>
                 </button>  
             </div>
           
@@ -662,11 +665,11 @@
         <!-- starwberry  -->
         <div class="col">
           <div class="card h-100 border border-3 border-success">
-            <img src="./app/img/contender/CONTENDER_STRAWBERRY.webp" class="card-img-top" loading="lazy" alt="Strawberry Rum"/>
+            <img src="./app/img/contender/CONTENDER_STRAWBERRY.webp" class="card-img-top" loading="lazy" sizes="400x267" alt="Strawberry Rum"/>
             <div class="card-body">
               <h3 class="card-title"></h3>
               <p class="card-text mb-3 text-light">
-                ⭐⭐⭐ <br> <br>
+                <a href="#exampleModal" type="button"  data-mdb-toggle="modal" data-mdb-target="#exampleModal">⭐⭐⭐⭐⭐</a><br><br>
                 1000mg - £49.99  <br>
                 2000mg - £85.00
               </p>
@@ -677,7 +680,7 @@
               
                 <!-- feedback button -->
                 <button id="orderButton" class="button-85" role="button">
-                  <a href="#" target="_blank" class="text-warning">Feedback</a>
+                  <a href="#" target="_blank" class="text-warning">Order</a>
                 </button>  
             </div>
           </div>
@@ -686,11 +689,11 @@
              <!-- grape  -->
         <div class="col">
           <div class="card h-100 border border-3 border-success">
-            <img src="./app/img/contender/CONTENDER_GRAPE.webp" class="card-img-top" loading="lazy" alt="Grape Rum"/>
+            <img src="./app/img/contender/CONTENDER_GRAPE.webp" class="card-img-top" loading="lazy" sizes="400x267" alt="Grape Rum"/>
             <div class="card-body">
               <h3 class="card-title"></h3>
               <p class="card-text text-light">
-                ⭐⭐⭐⭐ <br> <br>
+                <a href="#exampleModal" type="button"  data-mdb-toggle="modal" data-mdb-target="#exampleModal">⭐⭐⭐⭐⭐</a><br><br>
                 1000mg - £49.99  <br>
                 2000mg - £85.00
               </p>
@@ -701,7 +704,7 @@
              
                 <!-- feedback button -->
                 <button id="orderButton" class="button-85" role="button">
-                  <a href="#" target="_blank" class="text-warning">Feedback</a>
+                  <a href="#" target="_blank" class="text-warning">Order</a>
                 </button>  
             </div>
           </div>
@@ -710,11 +713,11 @@
           <!-- kola champagne  -->
         <div class="col">
           <div class="card h-100 border border-3 border-success">
-            <img src="./app/img/contender/CONTENDER_KOLACHAMPAGNE.webp" class="card-img-top" loading="lazy" alt="Kola Champagne Rum"/>
+            <img src="./app/img/contender/CONTENDER_KOLACHAMPAGNE.webp" class="card-img-top" loading="lazy" sizes="400x267" alt="Kola Champagne Rum"/>
             <div class="card-body">
               <h3 class="card-title"></h3>
               <p class="card-text text-light"> 
-                ⭐⭐⭐ <br> <br>
+                <a href="#exampleModal" type="button"  data-mdb-toggle="modal" data-mdb-target="#exampleModal">⭐⭐⭐⭐⭐</a><br><br>
                 1000mg - £49.99  <br>
                 2000mg - £85.00
               </p>
@@ -725,7 +728,7 @@
              
                 <!-- feedback button -->
                 <button id="orderButton" class="button-85" role="button">
-                  <a href="#" target="_blank" class="text-warning">Feedback</a>
+                  <a href="#" target="_blank" class="text-warning">Order</a>
                 </button>  
             </div>
           </div>
@@ -734,11 +737,11 @@
            <!-- irn-bru  -->
           <div class="col">
           <div class="card h-100 border border-3 border-success">
-            <img src="./app/img/contender/CONTENDER_IRN-BRU.webp" class="card-img-top" loading="lazy" alt="Irn-Bru Rum"/>
+            <img src="./app/img/contender/CONTENDER_IRN-BRU.webp" class="card-img-top" loading="lazy" sizes="400x267" alt="Irn-Bru Rum"/>
             <div class="card-body">
               <h3 class="card-title"></h3>
               <p class="card-text text-light"> 
-                ⭐⭐⭐⭐ <br> <br>
+                <a href="#exampleModal" type="button"  data-mdb-toggle="modal" data-mdb-target="#exampleModal">⭐⭐⭐⭐⭐</a><br><br>
                 1000mg - £49.99  <br>
                 2000mg - £85.00
               </p>
@@ -749,7 +752,7 @@
               
                 <!-- feedback button -->
                 <button id="orderButton" class="button-85" role="button">
-                  <a href="#" target="_blank" class="text-warning">Feedback</a>
+                  <a href="#" target="_blank" class="text-warning">Order</a>
                 </button>  
             </div>
           </div>
@@ -759,11 +762,11 @@
       <!-- pineapple  -->
         <div class="col">
           <div class="card h-100 border border-3 border-success">
-            <img src="./app/img/contender/CONTENDER_PINEAPPLE.webp" class="card-img-top" loading="lazy" alt="Pineapple Rum"/>
+            <img src="./app/img/contender/CONTENDER_PINEAPPLE.webp" class="card-img-top" loading="lazy" sizes="400x267" alt="Pineapple Rum"/>
             <div class="card-body">
               <h3 class="card-title"></h3>
               <p class="card-text text-light"> 
-                ⭐⭐⭐⭐ <br> <br>
+                <a href="#exampleModal" type="button"  data-mdb-toggle="modal" data-mdb-target="#exampleModal">⭐⭐⭐⭐⭐</a><br><br>
                 1000mg - £49.99  <br>
                 2000mg - £85.00
               </p>
@@ -774,7 +777,7 @@
              
                 <!-- feedback button -->
                 <button id="orderButton" class="button-85" role="button">
-                  <a href="#" target="_blank" class="text-warning">Feedback</a>
+                  <a href="#" target="_blank" class="text-warning">Order</a>
                 </button>  
             </div>
           </div>
@@ -784,11 +787,11 @@
          <!-- forest fruits  -->
          <div class="col">
           <div class="card h-100 border border-3 border-success">
-            <img src="./app/img/contender/CONTENDER_FORESTFRUITS.webp" class="card-img-top" loading="lazy" alt="Forest Fruits Rum"/>
+            <img src="./app/img/contender/CONTENDER_FORESTFRUITS.webp" class="card-img-top" loading="lazy" sizes="400x267" alt="Forest Fruits Rum"/>
             <div class="card-body">
               <h3 class="card-title"></h3>
               <p class="card-text text-light"> 
-                ⭐⭐⭐⭐ <br> <br>
+                <a href="#exampleModal" type="button"  data-mdb-toggle="modal" data-mdb-target="#exampleModal">⭐⭐⭐⭐⭐</a><br><br>
                 1000mg - £49.99  <br>
                 2000mg - £85.00
               </p>
@@ -799,7 +802,7 @@
              
                 <!-- feedback button -->
                 <button id="orderButton" class="button-85" role="button">
-                  <a href="#" target="_blank" class="text-warning">Feedback</a>
+                  <a href="#" target="_blank" class="text-warning">Order</a>
                 </button>  
             </div>
           </div>
@@ -808,11 +811,11 @@
               <!-- vimto  -->
         <div class="col">
           <div class="card h-100 border border-3 border-success">
-            <img src="./app/img/contender/CONTENDER_VIMTO.webp" class="card-img-top" loading="lazy" alt="Vimto Rum"/>
+            <img src="./app/img/contender/CONTENDER_VIMTO.webp" class="card-img-top" loading="lazy" sizes="400x267" alt="Vimto Rum"/>
             <div class="card-body">
               <h3 class="card-title"></h3>
               <p class="card-text text-light"> 
-                ⭐⭐⭐ <br> <br>
+                <a href="#exampleModal" type="button"  data-mdb-toggle="modal" data-mdb-target="#exampleModal">⭐⭐⭐⭐⭐</a><br><br>
                 1000mg - £49.99  <br>
                 2000mg - £85.00
               </p>
@@ -823,7 +826,7 @@
               
                 <!-- feedback button -->
                 <button id="orderButton" class="button-85" role="button">
-                  <a href="#" target="_blank" class="text-warning">Feedback</a>
+                  <a href="#" target="_blank" class="text-warning">Order</a>
                 </button>  
             </div>
           </div>
@@ -832,11 +835,11 @@
         <!-- ribena  -->
         <div class="col">
           <div class="card h-100 border border-3 border-success">
-            <img src="./app/img/contender/CONTENDER_RIBENA.webp" class="card-img-top" loading="lazy" alt="Ribena Rum"/>
+            <img src="./app/img/contender/CONTENDER_RIBENA.webp" class="card-img-top" loading="lazy" sizes="400x267" alt="Ribena Rum"/>
             <div class="card-body">
               <h3 class="card-title"></h3>
               <p class="card-text text-light"> 
-                ⭐⭐⭐ <br> <br>
+                <a href="#exampleModal" type="button"  data-mdb-toggle="modal" data-mdb-target="#exampleModal">⭐⭐⭐⭐⭐</a><br><br>
                 1000mg - £49.99  <br>
                 2000mg - £85.00
               </p>
@@ -847,7 +850,7 @@
              
                 <!-- feedback button -->
                 <button id="orderButton" class="button-85" role="button">
-                  <a href="#" target="_blank" class="text-warning">Feedback</a>
+                  <a href="#" target="_blank" class="text-warning">Order</a>
                 </button>  
             </div>
           </div>
@@ -856,11 +859,11 @@
         <!-- sorrel & ginger  -->
         <div class="col">
           <div class="card h-100 border border-3 border-success">
-            <img src="./app/img/contender/CONTENDER_SG.webp" class="card-img-top" loading="lazy" alt="S & G Rum"/>
+            <img src="./app/img/contender/CONTENDER_SG.webp" class="card-img-top" loading="lazy" sizes="400x267" alt="S & G Rum"/>
             <div class="card-body">
               <h3 class="card-title"></h3>
               <p class="card-text text-light"> 
-                ⭐⭐⭐ <br> <br>
+                <a href="#exampleModal" type="button"  data-mdb-toggle="modal" data-mdb-target="#exampleModal">⭐⭐⭐⭐⭐</a><br><br>
                 1000mg - £49.99  <br>
                 2000mg - £85.00
               </p>
@@ -872,7 +875,7 @@
               
                 <!-- feedback button -->
                 <button id="orderButton" class="button-85" role="button">
-                  <a href="#" target="_blank" class="text-warning">Feedback</a>
+                  <a href="#" target="_blank" class="text-warning">Order</a>
                 </button>  
             </div>
           </div>
@@ -886,7 +889,7 @@
           <div class="container">
             <div class="row">
               <div class="col-lg-4">
-                <img src="./app/img/about/chocolate_aboutPage.webp" class="img-fluid" loading="lazy" alt="Bars of Chocolate">
+                <img src="./app/img/about/chocolate_aboutPage.webp" class="img-fluid" loading="lazy" sizes="400x267" alt="Bars of Chocolate">
               </div>
               <div class="col-lg-8 pt-4 pt-lg-0 ">
                 <a href="https://thecocoapost.com/world-cocoa-order-how-is-ghana-leading-the-charge-to-decolonise-the-cocoa-value-chain/" target="_blank">
@@ -915,15 +918,15 @@
             <div class="row row-cols-1 row-cols-lg-4 row-cols-md-3 row-cols-sm-2 g-3 pt-4 mx-2 mb-5">
               <div id="chocolates" class="col">
                 <div class="card h-100 border border-3">
-                  <img src="./app/img/chocolates/BAILEYS  HONEYCOMB 250MG.webp" class="card-img-top" loading="lazy" alt="Infused Chocolate Bar"/>
+                  <img src="./app/img/chocolates/BAILEYS  HONEYCOMB 250MG.webp" class="card-img-top" loading="lazy" sizes="400x267" alt="Infused Chocolate Bar"/>
                       <div class="card-body">
                   <h3 class="card-title"></h3>
                   <p class="card-text text-light text-light"> 
-                    ⭐⭐⭐⭐⭐ <br> <br>
+                    <a href="#exampleModal" type="button"  data-mdb-toggle="modal" data-mdb-target="#exampleModal">⭐⭐⭐⭐⭐</a><br><br>
                     £20.00
                   </p>
                   <button class="button-85" role="button">
-                <a href="https://www.yummly.co.uk/recipe/Make-Any-Chocolate-a-Milkshake-1551968" target="_blank" class="text-warning">Size
+                <a href="https://www.yummly.co.uk/recipe/Make-Any-Chocolate-a-Milkshake-1551968" target="_blank" class="text-warning">Try
                 </a>
               </button>
               
@@ -940,22 +943,22 @@
                 <!-- cashews  -->
               <div class="col">
                 <div class="card h-100 border border-3">
-                  <img src="./app/img/chocolates/CASHEWS 250MG.webp" class="card-img-top" loading="lazy" alt="Infused Chocolate Bar"/>
+                  <img src="./app/img/chocolates/CASHEWS 250MG.webp" class="card-img-top" loading="lazy" sizes="400x267" alt="Infused Chocolate Bar"/>
                   <div class="card-body">
                     <h3 class="card-title"></h3>
                     <p class="card-text text-light text-light"> 
-                      ⭐⭐⭐⭐⭐ <br> <br>
+                      <a href="#exampleModal" type="button"  data-mdb-toggle="modal" data-mdb-target="#exampleModal">⭐⭐⭐⭐⭐</a><br><br>
                       £20.00
                     </p>
                     
                <button class="button-85" role="button">
-                <a href="https://www.yummly.co.uk/recipe/Easy-Macadamia-Chocolate-Shake-1090864" target="_blank" class="text-warning">Size
+                <a href="https://www.yummly.co.uk/recipe/Easy-Macadamia-Chocolate-Shake-1090864" target="_blank" class="text-warning">Try
                 </a>
               </button>
              
                 <!-- feedback button -->
                 <button id="orderButton" class="button-85" role="button">
-                  <a href="#" target="_blank" class="text-warning">Feedback</a>
+                  <a href="#" target="_blank" class="text-warning">Order</a>
                 </button>  
                   </div>
                 </div>
@@ -965,21 +968,21 @@
               <!-- 250mg milk chocolate  -->
             <div class="col">
               <div class="card h-100 border border-3">
-                <img src="./app/img/chocolates/CHOCOLATE 250MG.webp" class="card-img-top" loading="lazy" alt="Fruit & Nut Infused Chocolate Bar"/>
+                <img src="./app/img/chocolates/CHOCOLATE 250MG.webp" class="card-img-top" loading="lazy" sizes="400x267" alt="Fruit & Nut Infused Chocolate Bar"/>
                 <div class="card-body">
                   <h3 class="card-title"></h3>
                   <p class="card-text text-light text-light"> 
-                    ⭐⭐⭐⭐⭐ <br> <br>
+                    <a href="#exampleModal" type="button"  data-mdb-toggle="modal" data-mdb-target="#exampleModal">⭐⭐⭐⭐⭐</a><br><br>
                     £20.00
                   </p>
                   <button class="button-85" role="button">
-                <a href="https://www.yummly.co.uk/recipe/VANILLA-PINA-COLADA-379749" target="_blank" class="text-warning">Size
+                <a href="https://www.yummly.co.uk/recipe/VANILLA-PINA-COLADA-379749" target="_blank" class="text-warning">Try
                 </a>
               </button>
               
                 <!-- feedback button -->
                 <button id="orderButton" class="button-85" role="button">
-                  <a href="#" target="_blank" class="text-warning">Feedback</a>
+                  <a href="#" target="_blank" class="text-warning">Order</a>
                 </button>  
                 </div>
               </div>
@@ -988,21 +991,21 @@
             <!-- dry roasted -->
             <div class="col">
               <div class="card h-100 border border-3">
-                <img src="./app/img/chocolates/DRY ROASTED NUTS 250MG.webp" class="card-img-top" loading="lazy" alt="Dry Roasted Nuts Infused Chocolate Bar"/>
+                <img src="./app/img/chocolates/DRY ROASTED NUTS 250MG.webp" class="card-img-top" loading="lazy" sizes="400x267" alt="Dry Roasted Nuts Infused Chocolate Bar"/>
                 <div class="card-body">
                   <h3 class="card-title"></h3>
                   <p class="card-text text-light text-light"> 
-                    ⭐⭐⭐⭐⭐ <br> <br>
+                    <a href="#exampleModal" type="button"  data-mdb-toggle="modal" data-mdb-target="#exampleModal">⭐⭐⭐⭐⭐</a><br><br>
                     £20.00
                   </p>
                   <button class="button-85" role="button">
-                <a href="https://www.yummly.co.uk/recipe/Bounty-Smoothie-1556776" target="_blank" class="text-warning">Size
+                <a href="https://www.yummly.co.uk/recipe/Bounty-Smoothie-1556776" target="_blank" class="text-warning">Try
                 </a>
               </button>
               
                 <!-- feedback button -->
                 <button id="orderButton" class="button-85" role="button">
-                  <a href="#" target="_blank" class="text-warning">Feedback</a>
+                  <a href="#" target="_blank" class="text-warning">Order</a>
                 </button>  
                 </div>
               </div>
@@ -1013,24 +1016,24 @@
               <div class="card h-100 border border-3">
                 <a href="./app/img/feco_chocolate_banner.png">
                  
-                   <img src="./app/img/chocolates/FRUIT  NUT 250MG.webp" class="card-img-top" loading="lazy" alt="Fruit & Nut Infused Chocolate Bar"/>
+                   <img src="./app/img/chocolates/FRUIT  NUT 250MG.webp" class="card-img-top" loading="lazy" sizes="400x267" alt="Fruit & Nut Infused Chocolate Bar"/>
                      
                 </a>
                
                 <div class="card-body">
                   <h3 class="card-title"></h3>
                   <p class="card-text text-light text-light"> 
-                    ⭐⭐⭐⭐⭐ <br> <br>
+                    <a href="#exampleModal" type="button"  data-mdb-toggle="modal" data-mdb-target="#exampleModal">⭐⭐⭐⭐⭐</a><br><br>
                     £20.00
                   </p>
                   <button class="button-85" role="button">
-                <a href="https://www.yummly.co.uk/recipe/Iced-Mint-Chocolate-1258335" target="_blank" class="text-warning">Size
+                <a href="https://www.yummly.co.uk/recipe/Iced-Mint-Chocolate-1258335" target="_blank" class="text-warning">Try
                 </a>
               </button>
              
                 <!-- feedback button -->
                 <button id="orderButton" class="button-85" role="button">
-                  <a href="#" target="_blank" class="text-warning">Feedback</a>
+                  <a href="#" target="_blank" class="text-warning">Order</a>
                 </button>  
                 </div>
               </div>
@@ -1039,21 +1042,21 @@
             <!-- honey roasted -->
             <div class="col">
               <div class="card h-100 border border-3">
-                <img src="./app/img/chocolates/HONEY-ROASTED-NUTS-250MG.webp" class="card-img-top" loading="lazy" alt="Honey Roasted Nuts Infused Chocolate Bar"/>
+                <img src="./app/img/chocolates/HONEY-ROASTED-NUTS-250MG.webp" class="card-img-top" loading="lazy" sizes="400x267" alt="Honey Roasted Nuts Infused Chocolate Bar"/>
                 <div class="card-body">
                   <h3 class="card-title"></h3>
                   <p class="card-text text-light text-light"> 
-                    ⭐⭐⭐⭐⭐ <br> <br>
+                    <a href="#exampleModal" type="button"  data-mdb-toggle="modal" data-mdb-target="#exampleModal">⭐⭐⭐⭐⭐</a><br><br>
                     £20.00
                   </p>
                   <button class="button-85" role="button">
-                <a href="https://www.yummly.co.uk/recipe/Chanukah-Gelt-Hot-Chocolate-1416591" target="_blank" class="text-warning">Size
+                <a href="https://www.yummly.co.uk/recipe/Chanukah-Gelt-Hot-Chocolate-1416591" target="_blank" class="text-warning">Try
                 </a>
               </button>
               
                 <!-- feedback button -->
                 <button id="orderButton" class="button-85" role="button">
-                  <a href="#" target="_blank" class="text-warning">Feedback</a>
+                  <a href="#" target="_blank" class="text-warning">Order</a>
                 </button>  
                 </div>
               </div>
@@ -1063,21 +1066,21 @@
             <!-- rum & raisin  -->
             <div class="col">
               <div class="card h-100 border border-3">
-                <img src="./app/img/chocolates/RUM-_-RAISIN-250MG.webp" class="card-img-top" loading="lazy" alt="Rum & Raisin Infused Chocolate Bar"/>
+                <img src="./app/img/chocolates/RUM-_-RAISIN-250MG.webp" class="card-img-top" loading="lazy" sizes="400x267" alt="Rum & Raisin Infused Chocolate Bar"/>
                 <div class="card-body">
                   <h3 class="card-title"></h3>
                   <p class="card-text text-light text-light"> 
-                    ⭐⭐⭐⭐⭐ <br> <br>
+                    <a href="#exampleModal" type="button"  data-mdb-toggle="modal" data-mdb-target="#exampleModal">⭐⭐⭐⭐⭐</a><br><br>
                     £20.00
                   </p>
                   <button class="button-85" role="button">
-                <a href="https://www.yummly.co.uk/recipe/Snowball-Drink-9139621" target="_blank" class="text-warning">Size
+                <a href="https://www.yummly.co.uk/recipe/Snowball-Drink-9139621" target="_blank" class="text-warning">Try
                 </a>
               </button>
              
                 <!-- feedback button -->
                 <button id="orderButton" class="button-85" role="button">
-                  <a href="#" target="_blank" class="text-warning">Feedback</a>
+                  <a href="#" target="_blank" class="text-warning">Order</a>
                 </button>  
                 </div>
               </div>
@@ -1086,21 +1089,21 @@
             <!-- vodka & cranberries  -->
             <div class="col">
               <div class="card h-100 border border-3">
-                <img src="./app/img/chocolates/VODKA & CRANBERRIES 250MG.webp" class="card-img-top" loading="lazy" alt="Vodka & cranberries Infused Chocolate Bar"/>
+                <img src="./app/img/chocolates/VODKA & CRANBERRIES 250MG.webp" class="card-img-top" loading="lazy" sizes="400x267" alt="Vodka & cranberries Infused Chocolate Bar"/>
                 <div class="card-body">
                   <h3 class="card-title"></h3>
                   <p class="card-text text-light text-light"> 
-                    ⭐⭐⭐⭐⭐ <br> <br>
+                    <a href="#exampleModal" type="button"  data-mdb-toggle="modal" data-mdb-target="#exampleModal">⭐⭐⭐⭐⭐</a><br><br>
                     £20.00
                   </p>
                   <button class="button-85" role="button">
-                <a href="https://www.yummly.co.uk/recipe/Salted-Caramel-Chocolate-Milkshake-1849556" target="_blank" class="text-warning">Size
+                <a href="https://www.yummly.co.uk/recipe/Salted-Caramel-Chocolate-Milkshake-1849556" target="_blank" class="text-warning">Try
                 </a>
               </button>
               
                 <!-- feedback button -->
                 <button id="orderButton" class="button-85" role="button">
-                  <a href="#" target="_blank" class="text-warning">Feedback</a>
+                  <a href="#" target="_blank" class="text-warning">Order</a>
                 </button>  
                 </div>
               </div>
@@ -1108,42 +1111,42 @@
             <!-- vodka & cranberries end  -->
             <div class="col">
               <div class="card h-100 border border-3">
-                <img src="./app/img/chocolates/WHISKEY & FRUITS 250MG.webp" class="card-img-top" loading="lazy" alt="Whiskey & Fruit Infused Chocolate Bar"/>
+                <img src="./app/img/chocolates/WHISKEY & FRUITS 250MG.webp" class="card-img-top" loading="lazy" sizes="400x267" alt="Whiskey & Fruit Infused Chocolate Bar"/>
                 <div class="card-body">
                   <h3 class="card-title"></h3>
                   <p class="card-text text-light text-light"> 
-                    ⭐⭐⭐⭐⭐ <br> <br>
+                    <a href="#exampleModal" type="button"  data-mdb-toggle="modal" data-mdb-target="#exampleModal">⭐⭐⭐⭐⭐</a><br><br>
                     £20.00
                   </p>
                   <button class="button-85" role="button">
-                <a href="https://www.yummly.co.uk/recipe/Baileys-Affogato-99-1388533" target="_blank" class="text-warning">Size
+                <a href="https://www.yummly.co.uk/recipe/Baileys-Affogato-99-1388533" target="_blank" class="text-warning">Try
                 </a>
               </button>
              
                 <!-- feedback button -->
                 <button id="orderButton" class="button-85" role="button">
-                  <a href="#" target="_blank" class="text-warning">Feedback</a>
+                  <a href="#" target="_blank" class="text-warning">Order</a>
                 </button>  
                 </div>
               </div>
             </div>
             <div class="col">
               <div class="card h-100 border border-3">
-                <img src="./app/img/chocolates/WHISKEY & FRUITS 1000MG.webp" class="card-img-top" loading="lazy" alt="Whiskey & Fruit Infused Chocolate Bar"/>
+                <img src="./app/img/chocolates/WHISKEY & FRUITS 1000MG.webp" class="card-img-top" loading="lazy" sizes="400x267" alt="Whiskey & Fruit Infused Chocolate Bar"/>
                 <div class="card-body">
                   <h3 class="card-title"></h3>
                   <p class="card-text text-light text-light"> 
-                    ⭐⭐⭐⭐⭐ <br> <br>
+                    <a href="#exampleModal" type="button"  data-mdb-toggle="modal" data-mdb-target="#exampleModal">⭐⭐⭐⭐⭐</a><br><br>
                     £45.00
                   </p>
                   <button class="button-85" role="button">
-                <a href="https://www.yummly.co.uk/recipe/Amaretti-Tiramisu-2534144" target="_blank" class="text-warning">Size
+                <a href="https://www.yummly.co.uk/recipe/Amaretti-Tiramisu-2534144" target="_blank" class="text-warning">Try
                 </a>
               </button>
              
                 <!-- feedback button -->
                 <button id="orderButton" class="button-85" role="button">
-                  <a href="#" target="_blank" class="text-warning">Feedback</a>
+                  <a href="#" target="_blank" class="text-warning">Order</a>
                 </button>  
                 </div>
               </div>
@@ -1151,42 +1154,42 @@
 
             <div class="col">
               <div class="card h-100 border border-3">
-                <img src="./app/img/chocolates/VODKA & CRANBERRIES 1000MG.webp" class="card-img-top" loading="lazy" alt="Vodka & Cranberries Infused Chocolate Bar"/>
+                <img src="./app/img/chocolates/VODKA & CRANBERRIES 1000MG.webp" class="card-img-top" loading="lazy" sizes="400x267" alt="Vodka & Cranberries Infused Chocolate Bar"/>
                 <div class="card-body">
                   <h3 class="card-title"></h3>
                   <p class="card-text text-light text-light"> 
-                    ⭐⭐⭐⭐⭐ <br> <br>
+                    <a href="#exampleModal" type="button"  data-mdb-toggle="modal" data-mdb-target="#exampleModal">⭐⭐⭐⭐⭐</a><br><br>
                     £45.00
                   </p>
                   <button class="button-85" role="button">
-                <a href="https://www.yummly.co.uk/recipe/Vegan-Chocolate-Orange-Pots-9055661" target="_blank" class="text-warning">Size
+                <a href="https://www.yummly.co.uk/recipe/Vegan-Chocolate-Orange-Pots-9055661" target="_blank" class="text-warning">Try
                 </a>
               </button>
              
                 <!-- feedback button -->
                 <button id="orderButton" class="button-85" role="button">
-                  <a href="#" target="_blank" class="text-warning">Feedback</a>
+                  <a href="#" target="_blank" class="text-warning">Order</a>
                 </button>  
                 </div>
               </div>
             </div>
             <div class="col">
               <div class="card h-100 border border-3">
-                <img src="./app/img/chocolates/BAILEYS  HONEYCOMB 1000MG.webp" class="card-img-top" loading="lazy" alt="Bailey's & Honeycomb Infused Chocolate Bar"/>
+                <img src="./app/img/chocolates/BAILEYS  HONEYCOMB 1000MG.webp" class="card-img-top" loading="lazy" sizes="400x267" alt="Bailey's & Honeycomb Infused Chocolate Bar"/>
                 <div class="card-body">
                   <h3 class="card-title"></h3>
                   <p class="card-text text-light text-light"> 
-                    ⭐⭐⭐⭐⭐ <br> <br>
+                    <a href="#exampleModal" type="button"  data-mdb-toggle="modal" data-mdb-target="#exampleModal">⭐⭐⭐⭐⭐</a><br><br>
                     £45.00
                   </p>
                   <button class="button-85" role="button">
-                <a href="https://www.yummly.co.uk/recipe/Italian-Hot-Chocolate-1429585" target="_blank" class="text-warning">Size
+                <a href="https://www.yummly.co.uk/recipe/Italian-Hot-Chocolate-1429585" target="_blank" class="text-warning">Try
                 </a>
               </button>
               
                 <!-- feedback button -->
                 <button id="orderButton" class="button-85" role="button">
-                  <a href="#" target="_blank" class="text-warning">Feedback</a>
+                  <a href="#" target="_blank" class="text-warning">Order</a>
                 </button>  
                 </div>
               </div>
@@ -1226,13 +1229,15 @@
             <!-- apple  -->
             <div id="smokeless" class="col">
               <div class="card h-100 border border-3">
-                <img src="./app/img/smokeless/appleSmokeless.webp" class="card-img-top" loading="lazy" alt="Apple Juice"/>
+                <img src="./app/img/smokeless/appleSmokeless.webp" class="card-img-top" loading="lazy" sizes="400x267" alt="Apple Juice"/>
                 <div class="card-body">
                   <h3 class="card-title"></h3>
-                  <p class="card-text"> 
-                    
-                  TBA
+                  <p class="card-text text-light"> 
+                    <a href="#exampleModal" type="button"  data-mdb-toggle="modal" data-mdb-target="#exampleModal">⭐⭐⭐⭐⭐</a><br><br>
+                  500mg - £24.99 <br/><br/>
+                  
                   </p>
+                  
                    <button class="button-85" role="button">
                 <a href="https://www.yummly.co.uk/recipes?q=apple+drinks&taste-pref-appended=true" target="_blank" class="text-light">Apple
                 </a>
@@ -1248,13 +1253,14 @@
             <!-- grape  -->
             <div class="col">
               <div class="card h-100 border border-3">
-                <img src="./app/img/smokeless/grapeSmokeless.webp" class="card-img-top" loading="lazy" alt="Grape Juice"/>
+                <img src="./app/img/smokeless/grapeSmokeless.webp" class="card-img-top" loading="lazy" sizes="400x267" alt="Grape Juice"/>
                 <div class="card-body">
                   <h3 class="card-title"></h3>
-                  <p class="card-text"> 
-                    TBA
-                      
+                  <p class="card-text text-light"> 
+                    <a href="#exampleModal" type="button"  data-mdb-toggle="modal" data-mdb-target="#exampleModal">⭐⭐⭐⭐⭐</a><br><br>
+                  500mg - £24.99 <br/><br/>
                   </p>
+                  
                    <button class="button-85" role="button">
                 <a href="https://www.yummly.co.uk/recipe/African-Punch-1625264" target="_blank" class="text-light">Grape
                 </a>
@@ -1268,12 +1274,14 @@
             <!-- mango  -->
             <div class="col">
               <div class="card h-100 border border-3">
-                <img src="./app/img/smokeless/mangoSmokeless.webp" class="card-img-top" loading="lazy" alt="Mango juice"/>
+                <img src="./app/img/smokeless/mangoSmokeless.webp" class="card-img-top" loading="lazy" sizes="400x267" alt="Mango juice"/>
                 <div class="card-body">
                   <h3 class="card-title"></h3>
-                  <p class="card-text"> 
-                    TBA
+                  <p class="card-text text-light">
+                    <a href="#exampleModal" type="button"  data-mdb-toggle="modal" data-mdb-target="#exampleModal">⭐⭐⭐⭐⭐</a><br><br>
+                  500mg - £24.99 <br/><br/> 
                   </p>
+                  
                    <button class="button-85" role="button">
                 <a href="https://www.yummly.co.uk/recipes?q=mango+drinks&taste-pref-appended=true" target="_blank" class="text-light">Mango
                 </a>
@@ -1287,12 +1295,14 @@
             <!-- orange  -->
             <div class="col">
               <div class="card h-100 border border-3">
-                <img src="./app/img/smokeless/orangeSmokeless.webp" class="card-img-top" loading="lazy" alt="Orange Juice"/>
+                <img src="./app/img/smokeless/orangeSmokeless.webp" class="card-img-top" loading="lazy" sizes="400x267" alt="Orange Juice"/>
                 <div class="card-body ">
                   <h3 class="card-title"></h3>
-                  <p class="card-text"> 
-                      TBA
+                  <p class="card-text text-light"> 
+                      <a href="#exampleModal" type="button"  data-mdb-toggle="modal" data-mdb-target="#exampleModal">⭐⭐⭐⭐⭐</a><br><br>
+                  500mg - £24.99 <br/><br/>
                   </p>
+                  
                    <button class="button-85" role="button">
                 <a href="https://www.yummly.co.uk/recipes?q=orange+drinks&taste-pref-appended=true" target="_blank" class="text-light">Orange
                 </a>
@@ -1306,19 +1316,18 @@
             <!-- pineapple  -->
             <div class="col">
               <div class="card h-100 border border-3">
-                <img src="./app/img/smokeless/pineappleSmokeless.webp" class="card-img-top" loading="lazy" alt="Orange Juice"/>
+                <img src="./app/img/smokeless/pineappleSmokeless.webp" class="card-img-top" loading="lazy" sizes="400x267" alt="Orange Juice"/>
                 <div class="card-body ">
                   <h3 class="card-title"></h3>
-                  <p class="card-text"> 
-                      TBA
+                  <p class="card-text text-light"> 
+                      <a href="#exampleModal" type="button"  data-mdb-toggle="modal" data-mdb-target="#exampleModal">⭐⭐⭐⭐⭐</a><br><br>
+                  500mg - £24.99 <br/><br/>
                   </p>
+                  
                    <button class="button-85" role="button">
                     <a href="https://www.yummly.co.uk/recipes?q=pineapple+drinks&taste-pref-appended=true" target="_blank" class="text-light">Pineapple
                     </a>
                    </button>
-                  
-               
-                 
                 </div>
               </div>
             </div>
@@ -1327,12 +1336,14 @@
             <!-- orange  -->
             <div class="col">
               <div class="card h-100 border border-3">
-                <img src="./app/img/smokeless/orangeSmokeless.webp" class="card-img-top" loading="lazy" alt="Orange Juice"/>
+                <img src="./app/img/smokeless/orangeSmokeless.webp" class="card-img-top" loading="lazy" sizes="400x267" alt="Orange Juice"/>
                 <div class="card-body ">
                   <h3 class="card-title"></h3>
-                  <p class="card-text"> 
-                      TBA
+                  <p class="card-text text-light"> 
+                      <a href="#exampleModal" type="button"  data-mdb-toggle="modal" data-mdb-target="#exampleModal">⭐⭐⭐⭐⭐</a><br><br>
+                  500mg - £24.99 <br/><br/>
                   </p>
+                  
                    <button class="button-85" role="button">
                 <a href="https://www.yummly.co.uk/recipes?q=orange+drinks&taste-pref-appended=true" target="_blank" class="text-light">Orange
                 </a>
@@ -1383,11 +1394,11 @@
             <!-- honey 250mg  -->
             <div class="col">
               <div class="card h-100 border border-3">
-                <img src="./app/img/honey/HONEY 250MG.webp" class="card-img-top" loading="lazy" alt="Jar of Honey"/>
+                <img src="./app/img/honey/HONEY 250MG.webp" class="card-img-top" loading="lazy" sizes="400x267" alt="Jar of Honey"/>
                 <div class="card-body">
                   <h3 class="card-title"></h3>
                   <p class="card-text text-light"> 
-                    ⭐⭐ <br> <br>
+                    <a href="#exampleModal" type="button"  data-mdb-toggle="modal" data-mdb-target="#exampleModal">⭐⭐⭐⭐⭐</a><br><br>
                    300ML - £18.99
                   </p>
                    <button class="button-85" role="button">
@@ -1403,11 +1414,11 @@
             <!-- honey 500mg  -->  
             <div class="col">
               <div class="card h-100 border border-3">
-                <img src="./app/img/honey/HONEY 500MG.webp" class="card-img-top" alt="Pure Honey"/>
+                <img src="./app/img/honey/HONEY 500MG.webp" class="card-img-top" loading="lazy" sizes="400x267" alt="Pure Honey"/>
                 <div class="card-body">
                   <h3 class="card-title"></h3>
                   <p class="card-text text-light"> 
-                    ⭐⭐⭐ <br> <br>
+                    <a href="#exampleModal" type="button"  data-mdb-toggle="modal" data-mdb-target="#exampleModal">⭐⭐⭐⭐⭐</a><br><br>
                       500ML - £34.99
                   </p>
                    <button class="button-85" role="button">
@@ -1424,11 +1435,11 @@
             <!-- honey 1000mg  -->                 
             <div class="col">
               <div class="card h-100 border border-3">
-                <img src="./app/img/honey/HONEY 1000MG.webp" class="card-img-top" loading="lazy" alt="Pure Honey"/>
+                <img src="./app/img/honey/HONEY 1000MG.webp" class="card-img-top" loading="lazy" sizes="400x267" alt="Pure Honey"/>
                 <div class="card-body">
                   <h3 class="card-title"></h3>
                   <p class="card-text text-light"> 
-                    ⭐⭐⭐⭐ <br> <br>
+                    <a href="#exampleModal" type="button"  data-mdb-toggle="modal" data-mdb-target="#exampleModal">⭐⭐⭐⭐⭐</a><br><br>
                   500ml - £59.99
                   </p>
                    <button class="button-85" role="button">
@@ -1446,11 +1457,11 @@
             <!-- honey 1500mg  -->                 
             <div class="col">
               <div class="card h-100 border border-3">
-                <img src="./app/img/honey/HONEY 1500MG.webp" class="card-img-top" loading="lazy" alt="Pure Honey"/>
+                <img src="./app/img/honey/HONEY 1500MG.webp" class="card-img-top" loading="lazy" sizes="400x267" alt="Pure Honey"/>
                 <div class="card-body ">
                   <h3 class="card-title"></h3>
                   <p class="card-text text-light"> 
-                    ⭐⭐⭐⭐⭐ <br> <br>
+                    <a href="#exampleModal" type="button"  data-mdb-toggle="modal" data-mdb-target="#exampleModal">⭐⭐⭐⭐⭐</a><br><br>
                       500ml - £74.99
                   </p>
                    <button class="button-85" role="button">
@@ -1467,11 +1478,11 @@
                <!-- honey 2000mg -->
             <div class="col">
               <div class="card h-100 border border-3">
-                <img src="./app/img/honey/HONEY 2000MG.webp" class="card-img-top" loading="lazy" alt="Pure Honey"/>
+                <img src="./app/img/honey/HONEY 2000MG.webp" class="card-img-top" loading="lazy" sizes="400x267"alt="Pure Honey"/>
                 <div class="card-body ">
                   <h3 class="card-title"></h3>
                   <p class="card-text text-light"> 
-                    ⭐⭐⭐⭐⭐ <br> <br>
+                    <a href="#exampleModal" type="button"  data-mdb-toggle="modal" data-mdb-target="#exampleModal">⭐⭐⭐⭐⭐</a><br><br>
                       500ml - £89.99
                   </p>
                    <button class="button-85" role="button">
@@ -1514,86 +1525,46 @@
         </section>
         <!-- cbd oils about section end-->
             <div>
-              <h2 class="card-body pt-5 m-3 text-center"> <em>CBD Oils Selection</em> </h2>
+              <h2 class="card-body pt-5 m-3 text-center"> <em>FECO Selection</em> </h2>
             </div>
             
           <div class="row row-cols-1 row-cols-lg-6 row-cols-md-3 row-cols-sm-2 g-3 pt-3 mx-2 pb-5">
-            <!-- cbd oils 100mg  -->
+            <!-- cbd oils 200mg  -->
             <div id="cbd" class="col">
               <div class="card h-100 border border-3">
-                <img src="./app/img/cbd_oils/Tincture_Van_1200mg__65374.webp" class="card-img-top" loading="lazy" alt="CBD Tincture"/>
+                <img src="./app/img/cbd_oils/Tincture_Van_1200mg__65374.webp" class="card-img-top" loading="lazy" sizes="400x267" alt="CBD Tincture"/>
                 <div class="card-body">
                   <h3 class="card-title"></h3>
                   <p class="card-text text-light"> 
-                    ⭐⭐ <br> <br>
-                   20ml - £19.99
+                    <a href="#exampleModal" type="button"  data-mdb-toggle="modal" data-mdb-target="#exampleModal">⭐⭐⭐⭐⭐</a><br><br>
+                   200mg - £19.99
                   </p>
                  
                   
                 <!-- feedback button -->
                 <button id="orderButton" class="button-85" role="button">
-                  <a href="#" target="_blank" class="text-warning">Feedback</a>
+                  <a href="#" target="_blank" class="text-warning">Order</a>
                 </button>  
                 </div>
               </div>
             </div>
-            <!-- cbd oils 100mg end -->
+            <!-- cbd oils 200mg end -->
 
-            <!-- cbd 200mg  -->
+            <!-- cbd 500mg  -->
             <div class="col">
               <div class="card h-100 border border-3">
-                <img src="./app/img/cbd_oils/Tincture_Van_1200mg__65374.webp" class="card-img-top" loading="lazy" alt="CBD Tincture"/>
+                <img src="./app/img/cbd_oils/Tincture_Van_1200mg__65374.webp" class="card-img-top" loading="lazy" sizes="400x267" alt="CBD Tincture"/>
                 <div class="card-body">
                   <h3 class="card-title"></h3>
                   <p class="card-text text-light"> 
-                    ⭐⭐ <br> <br>
-                     20ml - £34.99
+                    <a href="#exampleModal" type="button"  data-mdb-toggle="modal" data-mdb-target="#exampleModal">⭐⭐⭐⭐⭐</a><br><br>
+                     500mg - £29.99
                   </p>
                   
                   
                 <!-- feedback button -->
                 <button id="orderButton" class="button-85" role="button">
-                  <a href="#" target="_blank" class="text-warning">Feedback</a>
-                </button>  
-                </div>
-              </div>
-            </div>
-            <!-- 200mg end  -->
-            <!-- 300mg  -->
-            <div class="col">
-              <div class="card h-100 border border-3">
-                <img src="./app/img/cbd_oils/Tincture_Van_1200mg__65374.webp" class="card-img-top" loading="lazy" alt="CBD Tincture"/>
-                <div class="card-body">
-                  <h3 class="card-title"></h3>
-                  <p class="card-text text-light"> 
-                    ⭐⭐⭐ <br> <br>
-                       20ml - £44.99
-                  </p>
-                 
-                  
-                <!-- feedback button -->
-                <button id="orderButton" class="button-85" role="button">
-                  <a href="#" target="_blank" class="text-warning">Feedback</a>
-                </button>  
-                </div>          
-              </div>
-            </div>
-            <!-- 300mg end  -->
-            <!-- 500mg  -->
-            <div class="col">
-              <div class="card h-100 border border-3">
-                <img src="./app/img/cbd_oils/Tincture_Van_1200mg__65374.webp" class="card-img-top" loading="lazy" alt="CBD Tincture"/>
-                <div class="card-body ">
-                  <h3 class="card-title"></h3>
-                  <p class="card-text text-light"> 
-                    ⭐⭐⭐⭐ <br> <br>
-                    20ml - £59.99
-                  </p>
-                
-                   
-                <!-- feedback button -->
-                <button id="orderButton" class="button-85" role="button">
-                  <a href="#" target="_blank" class="text-warning">Feedback</a>
+                  <a href="#" target="_blank" class="text-warning">Order</a>
                 </button>  
                 </div>
               </div>
@@ -1602,37 +1573,77 @@
             <!-- 1000mg  -->
             <div class="col">
               <div class="card h-100 border border-3">
-                <img src="./app/img/cbd_oils/Tincture_Van_1200mg__65374.webp" class="card-img-top" loading="lazy" alt="CBD Tincture"/>
+                <img src="./app/img/cbd_oils/Tincture_Van_1200mg__65374.webp" class="card-img-top" loading="lazy" sizes="400x267" alt="CBD Tincture"/>
+                <div class="card-body">
+                  <h3 class="card-title"></h3>
+                  <p class="card-text text-light"> 
+                    <a href="#exampleModal" type="button"  data-mdb-toggle="modal" data-mdb-target="#exampleModal">⭐⭐⭐⭐⭐</a><br><br>
+                       1000mg - £44.99
+                  </p>
+                 
+                  
+                <!-- feedback button -->
+                <button id="orderButton" class="button-85" role="button">
+                  <a href="#" target="_blank" class="text-warning">Order</a>
+                </button>  
+                </div>          
+              </div>
+            </div>
+            <!-- 1000mg end  -->
+            <!-- 1500mg  -->
+            <div class="col">
+              <div class="card h-100 border border-3">
+                <img src="./app/img/cbd_oils/Tincture_Van_1200mg__65374.webp" class="card-img-top" loading="lazy" sizes="400x267" alt="CBD Tincture"/>
                 <div class="card-body ">
                   <h3 class="card-title"></h3>
                   <p class="card-text text-light"> 
-                    ⭐⭐⭐⭐⭐ <br> <br>
-                      20ml - £79.99
+                    <a href="#exampleModal" type="button"  data-mdb-toggle="modal" data-mdb-target="#exampleModal">⭐⭐⭐⭐⭐</a><br><br>
+                    1500mg - £59.99
+                  </p>
+                
+                   
+                <!-- feedback button -->
+                <button id="orderButton" class="button-85" role="button">
+                  <a href="#" target="_blank" class="text-warning">Order</a>
+                </button>  
+                </div>
+              </div>
+            </div>
+            <!-- 1500mg end  -->
+            <!-- 2000mg  -->
+            <div class="col">
+              <div class="card h-100 border border-3">
+                <img src="./app/img/cbd_oils/Tincture_Van_1200mg__65374.webp" class="card-img-top" loading="lazy" sizes="400x267" alt="CBD Tincture"/>
+                <div class="card-body ">
+                  <h3 class="card-title"></h3>
+                  <p class="card-text text-light"> 
+                    <a href="#exampleModal" type="button"  data-mdb-toggle="modal" data-mdb-target="#exampleModal">⭐⭐⭐⭐⭐</a><br><br>
+                      2000mg - £79.99
                   </p>
                  
                    
                 <!-- feedback button -->
                 <button id="orderButton" class="button-85" role="button">
-                  <a href="#" target="_blank" class="text-warning">Feedback</a>
+                  <a href="#" target="_blank" class="text-warning">Order</a>
                 </button>  
                 </div>
               </div>
             </div>
-            <!-- 1000mg end  -->
-            <!-- 2000mg  -->
+            <!-- 2000mg end  -->
+            <!-- 3000mg  -->
             <div class="col">
               <div class="card h-100 border border-3">
-                <img src="./app/img/cbd_oils/Tincture_Van_1200mg__65374.webp" class="card-img-top" loading="lazy" alt="CBD Tincture"/>
+                <img src="./app/img/cbd_oils/Tincture_Van_1200mg__65374.webp" class="card-img-top" loading="lazy" sizes="400x267" alt="CBD Tincture"/>
                 <div class="card-body ">
                   <h3 class="card-title"></h3>
                   <p class="card-text text-light"> 
-                    ⭐⭐⭐⭐⭐ <br> <br>
-                     20ml - £124.99
+                    <a href="#exampleModal" type="button"  data-mdb-toggle="modal" data-mdb-target="#exampleModal">⭐⭐⭐⭐⭐</a><br><br>
+                     3000mg - £114.99
                   </p>
                  
                 <!-- feedback button -->
                 <button id="orderButton" class="button-85" role="button">
-                  <a href="#" target="_blank" class="text-warning">Feedback</a>
+                  <a href="#" target="_blank" class="text-warning">Order</a>
                 </button>  
                 </div>
               </div>
@@ -1645,7 +1656,7 @@
           <div class="container">
             <div class="row">
               <div class="col-lg-4">
-                <img src="./app/img/about/topicals_aboutPage.jpg" class="img-fluid" loading="lazy" alt="Glass jar of cream">
+                <img src="./app/img/about/topicals_aboutPage.jpg" class="img-fluid" loading="lazy" sizes="400x267" alt="Glass jar of cream">
               </div>
               <div class="col-lg-8 pt-4 pt-lg-0 ">
                 <h3 class="text-success mb-3">Topicals</h3>
@@ -1676,14 +1687,14 @@
                 <div class="card-body">
                   <h3 class="card-title"></h3>
                   <p class="card-text text-light"> 
-                    ⭐⭐ <br> <br>
-                   60ml - £9.99
+                    <a href="#exampleModal" type="button"  data-mdb-toggle="modal" data-mdb-target="#exampleModal">⭐⭐⭐⭐⭐</a><br><br>
+                   100mg - £9.99
                   </p>
                  
                   
                 <!-- feedback button -->
                 <button id="orderButton" class="button-85" role="button">
-                  <a href="#" target="_blank" class="text-warning">Feedback</a>
+                  <a href="#" target="_blank" class="text-warning">Order</a>
                 </button>  
                 </div>
               </div>
@@ -1696,14 +1707,14 @@
                 <div class="card-body">
                   <h3 class="card-title"></h3>
                   <p class="card-text text-light"> 
-                    ⭐⭐ <br> <br>
-                      60ml - £17.99
+                    <a href="#exampleModal" type="button"  data-mdb-toggle="modal" data-mdb-target="#exampleModal">⭐⭐⭐⭐⭐</a><br><br>
+                      250mg - £17.99
                   </p>
                  
                   
                 <!-- feedback button -->
                 <button id="orderButton" class="button-85" role="button">
-                  <a href="#" target="_blank" class="text-warning">Feedback</a>
+                  <a href="#" target="_blank" class="text-warning">Order</a>
                 </button>  
                  
                 </div>
@@ -1717,13 +1728,13 @@
                 <div class="card-body">
                   <h3 class="card-title"></h3>
                   <p class="card-text text-light"> 
-                    ⭐⭐⭐ <br> <br>
-                    60ml - £24.99
+                    <a href="#exampleModal" type="button"  data-mdb-toggle="modal" data-mdb-target="#exampleModal">⭐⭐⭐⭐⭐</a><br><br>
+                    500mg - £29.99
                   </p>
                 
                 <!-- feedback button -->
                 <button id="orderButton" class="button-85" role="button">
-                  <a href="#" target="_blank" class="text-warning">Feedback</a>
+                  <a href="#" target="_blank" class="text-warning">Order</a>
                 </button>  
                  
                 </div>          
@@ -1737,14 +1748,14 @@
                 <div class="card-body ">
                   <h3 class="card-title"></h3>
                   <p class="card-text text-light"> 
-                    ⭐⭐⭐ <br> <br>
-                      60ml - £34.99
+                    <a href="#exampleModal" type="button"  data-mdb-toggle="modal" data-mdb-target="#exampleModal">⭐⭐⭐⭐⭐</a><br><br>
+                      750mg - £37.99
                   </p>
                  
                   
                 <!-- feedback button -->
                 <button id="orderButton" class="button-85" role="button">
-                  <a href="#" target="_blank" class="text-warning">Feedback</a>
+                  <a href="#" target="_blank" class="text-warning">Order</a>
                 </button>  
                  
                 </div>
@@ -1758,14 +1769,14 @@
                 <div class="card-body ">
                   <h3 class="card-title"></h3>
                   <p class="card-text text-light"> 
-                    ⭐⭐⭐⭐ <br> <br>
-                    60ml - £44.99
+                    <a href="#exampleModal" type="button"  data-mdb-toggle="modal" data-mdb-target="#exampleModal">⭐⭐⭐⭐⭐</a><br><br>
+                    1000mg - £44.99
                   </p>
                  
                   
                 <!-- feedback button -->
                 <button id="orderButton" class="button-85" role="button">
-                  <a href="#" target="_blank" class="text-warning">Feedback</a>
+                  <a href="#" target="_blank" class="text-warning">Order</a>
                 </button>  
                  
                 </div>
@@ -1779,13 +1790,13 @@
                 <div class="card-body ">
                   <h3 class="card-title"></h3>
                   <p class="card-text text-light"> 
-                    ⭐⭐⭐⭐⭐ <br> <br>
-                    60ml - £59.99
+                    <a href="#exampleModal" type="button"  data-mdb-toggle="modal" data-mdb-target="#exampleModal">⭐⭐⭐⭐⭐</a><br><br>
+                    1500mg - £59.99
                   </p>
                  
                 <!-- feedback button -->
                 <button id="orderButton" class="button-85" role="button">
-                  <a href="#" target="_blank" class="text-warning">Feedback</a>
+                  <a href="#" target="_blank" class="text-warning">Order</a>
                 </button>  
                  
                 </div>
@@ -1830,14 +1841,14 @@
                 <div class="card-body">
                   <h3 class="card-title"></h3>
                   <p class="card-text text-light"> 
-                    ⭐⭐ <br> <br>
-                  10pcs - £14.99
+                    <a href="#exampleModal" type="button"  data-mdb-toggle="modal" data-mdb-target="#exampleModal">⭐⭐⭐⭐⭐</a><br><br>
+                  100mg - £9.99
                   </p>
                  
                   
                 <!-- feedback button -->
                 <button id="orderButton" class="button-85" role="button">
-                  <a href="#" target="_blank" class="text-warning">Feedback</a>
+                  <a href="#" target="_blank" class="text-warning">Order</a>
                 </button>  
                  
                 </div>
@@ -1852,14 +1863,14 @@
                 <div class="card-body">
                   <h3 class="card-title"></h3>
                   <p class="card-text text-light"> 
-                    ⭐⭐ <br> <br>
-                      15pc - £24.99
+                    <a href="#exampleModal" type="button"  data-mdb-toggle="modal" data-mdb-target="#exampleModal">⭐⭐⭐⭐⭐</a><br><br>
+                      200mg - £19.99
                   </p>
                  
                   
                 <!-- feedback button -->
                 <button id="orderButton" class="button-85" role="button">
-                  <a href="#" target="_blank" class="text-warning">Feedback</a>
+                  <a href="#" target="_blank" class="text-warning">Order</a>
                 </button>  
                  
                 </div>
@@ -1873,13 +1884,13 @@
                 <div class="card-body">
                   <h3 class="card-title"></h3>
                   <p class="card-text text-light"> 
-                    ⭐⭐⭐ <br> <br>
-                      20pc - £34.99
+                    <a href="#exampleModal" type="button"  data-mdb-toggle="modal" data-mdb-target="#exampleModal">⭐⭐⭐⭐⭐</a><br><br>
+                      500mg - £29.99
                   </p>
                  
                 <!-- feedback button -->
                 <button id="orderButton" class="button-85" role="button">
-                  <a href="#" target="_blank" class="text-warning">Feedback</a>
+                  <a href="#" target="_blank" class="text-warning">Order</a>
                 </button>  
                  
                 </div>          
@@ -1893,14 +1904,14 @@
                 <div class="card-body ">
                   <h3 class="card-title"></h3>
                   <p class="card-text text-light"> 
-                    ⭐⭐⭐⭐ <br> <br>
-                      25pc - £44.99
+                    <a href="#exampleModal" type="button"  data-mdb-toggle="modal" data-mdb-target="#exampleModal">⭐⭐⭐⭐⭐</a><br><br>
+                     1000mg  - £44.99
                   </p>
                  
                   
                 <!-- feedback button -->
                 <button id="orderButton" class="button-85" role="button">
-                  <a href="#" target="_blank" class="text-warning">Feedback</a>
+                  <a href="#" target="_blank" class="text-warning">Order</a>
                 </button>  
                   
                 </div>
@@ -1914,37 +1925,36 @@
                 <div class="card-body ">
                   <h3 class="card-title"></h3>
                   <p class="card-text text-light"> 
-                    ⭐⭐⭐⭐⭐ <br> <br>
-                     30pcs - £54.99
+                    <a href="#exampleModal" type="button"  data-mdb-toggle="modal" data-mdb-target="#exampleModal">⭐⭐⭐⭐⭐</a><br><br>
+                     1500mg - £64.99
                   </p>
                 
                   
                 <!-- feedback button -->
                 <button id="orderButton" class="button-85" role="button">
-                  <a href="#" target="_blank" class="text-warning">Feedback</a>
+                  <a href="#" target="_blank" class="text-warning">Order</a>
                 </button>  
                  
                 </div>
               </div>
             </div>
             <!-- 5th gummy end  -->
-            <!-- 6th gummy  -->
+            <!-- 6th gummy Try -->
             <div class="col">
               <div class="card h-100 border border-3">
                 <img src="./app/img/gummies/61BU8HI-b7L._AC_UF894,1000_QL80_.jpg" class="card-img-top" loading="lazy" alt="Medicated Gummies"/>
                 <div class="card-body ">
                   <h3 class="card-title"></h3>
                   <p class="card-text text-light"> 
-                    ⭐⭐⭐⭐⭐ <br> <br>
-                      50pcs - £64.99
+                    <a href="#exampleModal" type="button"  data-mdb-toggle="modal" data-mdb-target="#exampleModal">⭐⭐⭐⭐⭐</a><br><br>
+                      2000mg - £79.99
                   </p>
                  
                   
                 <!-- feedback button -->
                 <button id="orderButton" class="button-85" role="button">
-                  <a href="#" target="_blank" class="text-warning">Feedback</a>
+                  <a href="#" target="_blank" class="text-warning">Order</a>
                 </button>  
-                 
                 </div>
               </div>
             </div>
@@ -2068,7 +2078,13 @@
                 <i class="fas fa-gem me-3 text-success"></i>Club Feco
               </h4>
               <p>
-                
+               <p><i class="fas fa-home me-3 text-light"></i> Brumstadam</p>
+              <p>
+                <i class="fas fa-envelope me-3 text-light"></i>
+                info@example.com
+              </p>
+              <p><i class="fas fa-phone me-3 text-light"></i> + 0121 456788</p>
+              <p><i class="fas fa-print me-3 text-light"></i> + 0121 456789</p>
               </p>
             </div>
             <!-- Grid column -->
@@ -2140,14 +2156,8 @@
             <!-- Grid column -->
             <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
               <!-- Links -->
-              <h6 id="contact" class="text-uppercase fw-bold mb-4 text-light">Contact</h6>
-              <p><i class="fas fa-home me-3 text-light"></i> Brumstadam</p>
-              <p>
-                <i class="fas fa-envelope me-3 text-light"></i>
-                info@example.com
-              </p>
-              <p><i class="fas fa-phone me-3 text-light"></i> + 0121 456788</p>
-              <p><i class="fas fa-print me-3 text-light"></i> + 0121 456789</p>
+              <h6 id="contact" class="text-uppercase fw-bold mb-4 text-light">More Links</h6>
+             
             </div>
             <!-- Grid column -->
           </div>

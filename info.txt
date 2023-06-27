@@ -53,3 +53,42 @@
     </div>
   </div>
 </div>
+
+
+let products = [
+  { name: "Product 1", category: "Category A", image: "path/to/product1.jpg" },
+  { name: "Product 2", category: "Category B", image: "path/to/product2.jpg" },
+  { name: "Product 3", category: "Category A", image: "path/to/product3.jpg" },
+  // Add more products as needed
+];
+
+
+function displaySearchResults(results) {
+  let searchResultsContainer = document.getElementById('searchResults');
+  searchResultsContainer.innerHTML = '';
+
+  for (let i = 0; i < results.length; i++) {
+    let product = results[i];
+
+    let productElement = document.createElement('div');
+    productElement.classList.add('product');
+
+    let imageElement = document.createElement('img');
+    imageElement.src = product.image;
+    productElement.appendChild(imageElement);
+
+    let nameElement = document.createElement('p');
+    nameElement.textContent = product.name;
+    productElement.appendChild(nameElement);
+
+    searchResultsContainer.appendChild(productElement);
+  }
+}
+
+
+
+
+<input type="text" id="searchInput" placeholder="Search products..." onkeyup="if(event.keyCode === 13) searchProducts()">
+<div id="searchResults"></div>
+
+

@@ -2087,6 +2087,10 @@ em {
 .card-body p {
   font-size: 1.2rem;
 }
+/* modal  */
+textarea {
+  overflow: hidden;
+}
 
 .button-85 {
 

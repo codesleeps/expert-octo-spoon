@@ -1,3 +1,18 @@
+const products = [{
+  image: 'app/img/feco/FECO_SHOTS_CHERRY_LITE-min.png',
+  name: 'Cherry',
+  stars: 5,
+  size: '50ml',
+  pricePence: '1499'
+
+}]
+
+
+
+
+
+
+
 // Get the button:
 let mybutton = document.getElementById("myBtn");
 

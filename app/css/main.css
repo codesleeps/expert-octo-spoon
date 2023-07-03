@@ -11,24 +11,7 @@
   --dark-shadow: #3e2904;
 }
 
-/* html {
-  height: 100%;
-  -webkit-box-sizing: border-box;
-  box-sizing: border-box;
-} */
 
-/* body {
-  min-height: 100%;
-  position: relative;
-  padding-bottom: 3rem;
-  margin: 0;
-  padding: 0;
-  text-align: center;
-  width: 100%;
-  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
-    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
-}
- */
 
 .animated-button {
   /* background: linear-gradient(-30deg, #0b1b3d 50%, #08142b 50%); */
@@ -2066,7 +2049,7 @@ em {
   -webkit-text-fill-color: transparent;
   -webkit-background-clip: text;
   background-clip: text;
-  font-size: 1.2em;
+  font-size: 1em;
 }
 
 .navbar {
